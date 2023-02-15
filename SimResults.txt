@@ -1,0 +1,68 @@
+*** FNCD Day 1 is closed on Sunday  ***
+*** FNCD Day 2 Monday ***
+Opening....(current budget $500000.0)
+Hired Ava Wilson
+Hired Olivia Williams
+Hired Amelia Jones
+Washing....
+Intern Isabella Williams washed RegularCar BMW Hatchback and made it Sparkling (earned $100)
+Intern Amelia Brown washed PerformanceCar BMW XL and made it Sparkling (earned $200)
+Mechanic Ava Wilson repaired Broken BMW XL and made it Used (earned $250)
+Mechanic Amelia Jones repaired Used Lamborghini XS and made it Like New (earned $250)
+*** FNCD Day 3 Tuesday ***
+Opening....(current budget $499549.0)
+Washing....
+Intern Isabella Williams washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
+Intern Mia Taylor washed PickUpCar Mercedes Hatchback and made it Sparkling (earned $300)
+Intern Amelia Brown washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
+Mechanic Ava Wilson repaired Used BMW XL and made it Like New (earned $250)
+Mechanic Amelia Jones repaired Used Audi Sedan and made it Like New (earned $350)
+*** FNCD Day 4 Wednesday ***
+Opening....(current budget $498836.0)
+Washing....
+Intern Isabella Williams washed PerformanceCar Bentley SUV and made it Sparkling (earned $200)
+Intern Mia Taylor washed PickUpCar Ferrari Sumo and made it Sparkling (earned $300)
+Intern Amelia Brown washed RegularCar Tesla XL and made it Sparkling (earned $100)
+Mechanic Ava Wilson repaired Broken Bentley Sports and made it Used (earned $250)
+Mechanic Amelia Jones repaired Used BMW Racer and made it Like New (earned $350)
+*** FNCD Day 5 Thursday ***
+Opening....(current budget $498023.0)
+Washing....
+Intern Mia Taylor washed RegularCar Ferrari Racer and made it Sparkling (earned $100)
+Intern Amelia Brown washed PerformanceCar Lamborghini XS and made it Sparkling (earned $200)
+Mechanic Ava Wilson repaired Broken Tesla XL and made it Used (earned $150)
+Mechanic Amelia Jones repaired Used Mercedes EXL and made it Like New (earned $150)
+*** FNCD Day 6 Friday ***
+Opening....(current budget $497587.0)
+Washing....
+Intern Mia Taylor washed PerformanceCar BMW XL and made it Sparkling (earned $200)
+Intern Mia Taylor washed RegularCar Tesla XL and made it Sparkling (earned $100)
+Mechanic Ava Wilson repaired Used Mercedes Hatchback and made it Like New (earned $350)
+Mechanic Isabella Davis repaired Used Bentley Sports and made it Like New (earned $250)
+*** FNCD Day 7 Saturday ***
+Opening....(current budget $497163.0)
+Washing....
+Intern Isabella Williams washed PickUpCar BMW Racer and made it Sparkling (earned $300)
+Intern Mia Taylor washed PickUpCar Audi Sedan and made it Sparkling (earned $300)
+Intern Amelia Brown washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
+Mechanic Ava Wilson repaired Used Tesla XL and made it Like New (earned $150)
+*** FNCD Day 8 is closed on Sunday  ***
+*** FNCD Day 9 Monday ***
+Opening....(current budget $496250.0)
+Washing....
+Intern Isabella Williams washed PerformanceCar Bentley Sports and made it Sparkling (earned $200)
+Intern Mia Taylor washed PickUpCar Mercedes Hatchback and made it Sparkling (earned $300)
+*** FNCD Day 10 Tuesday ***
+Opening....(current budget $495611.0)
+Washing....
+Intern Mia Taylor washed RegularCar Tesla XL and made it Sparkling (earned $100)
+Name: 	          Total Normal Salary:	Total Bonus:	 No Of Working Days: 
+Ava Wilson	          264.0	             1400.0	           6
+Olivia Williams	          0.0	             0.0	           0
+Amelia Jones	          124.0	             1100.0	           4
+Mia Miller	          0.0	             0.0	           0
+Isabella Davis	          39.0	             250.0	           1
+Amelia Williams	          0.0	             0.0	           0
+Isabella Williams	          385.0	             900.0	           5
+Mia Taylor	          496.0	             1700.0	           8
+Amelia Brown	          370.0	             700.0	           5
