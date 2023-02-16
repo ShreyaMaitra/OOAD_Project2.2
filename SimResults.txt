@@ -1,68 +1,1165 @@
 *** FNCD Day 1 is closed on Sunday  ***
 *** FNCD Day 2 Monday ***
 Opening....(current budget $500000.0)
-Hired Ava Wilson
-Hired Olivia Williams
-Hired Amelia Jones
+Hired Harper Johnson
+Hired Mia Taylor
+Hired Emma Smith
 Washing....
-Intern Isabella Williams washed RegularCar BMW Hatchback and made it Sparkling (earned $100)
-Intern Amelia Brown washed PerformanceCar BMW XL and made it Sparkling (earned $200)
-Mechanic Ava Wilson repaired Broken BMW XL and made it Used (earned $250)
-Mechanic Amelia Jones repaired Used Lamborghini XS and made it Like New (earned $250)
+Intern Mia Williams washed RegularCar Bentley XL and made it Sparkling (earned $100)
+Intern Isabella Moore washed PerformanceCar Jaguar Hatchback and made it Sparkling (earned $200)
+Intern Amelia Brown washed RegularCar Bentley XL and made it Sparkling (earned $100)
+Mechanic Harper Johnson repaired Used Ferrari Sports and made it Like New (earned $250)
+Mechanic Amelia Brown repaired Broken Ferrari Sedan and made it Used (earned $350)
+Salesperson Mia Taylor sold Like New RegularCar Mercedes Sedan to Buyer for $28276.0 (earned $ 1000bonus)
+Mechanic Emma Smith has quit the FNCDSalesperson Amelia Davis has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Harper Johnson	         1	                               49.0	                      250.0	               Working
+Mia Taylor	         1	                               96.0	                      1000.0	               Working
+Sophia Moore	         0	                               0.0	                      0.0	               Working
+Amelia Brown	         1	                               40.0	                      350.0	               Working
+Mia Williams	         1	                               77.0	                      100.0	               Working
+Isabella Moore	         1	                               61.0	                      200.0	               Working
+Amelia Brown	         1	                               80.0	                      100.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Dirty	               Dirty
+Tesla EXL	         36175.0	                               0.0	                      Like New	               Dirty	               Dirty
+Ferrari Sedan	         50143.5	                               0.0	                      Used	               Dirty	               Dirty
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Dirty	               Dirty
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Dirty	               Dirty
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Jaguar Sedan	         21728.0	                               0.0	                      Used	               Clean	               Clean
+Mercedes Sports	         8231.5	                               0.0	                      Broken	               Dirty	               Dirty
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Clean	               Clean
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Dirty	               Dirty
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
 *** FNCD Day 3 Tuesday ***
-Opening....(current budget $499549.0)
+Opening....(current budget $525873.0)
+Hired Mia Taylor
+Hired Sophia Moore
+Purchased Like New , Dirty PerformanceCar for $31090.0Cost
 Washing....
-Intern Isabella Williams washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
-Intern Mia Taylor washed PickUpCar Mercedes Hatchback and made it Sparkling (earned $300)
-Intern Amelia Brown washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
-Mechanic Ava Wilson repaired Used BMW XL and made it Like New (earned $250)
-Mechanic Amelia Jones repaired Used Audi Sedan and made it Like New (earned $350)
+Intern Amelia Brown washed RegularCar Ferrari EXL and made it Sparkling (earned $100)
+Intern Charlotte Moore washed PickUpCar Jaguar Sedan and made it Sparkling (earned $300)
+Mechanic Harper Johnson repaired Used Jaguar Sedan and made it Like New (earned $350)
+Mechanic Mia Williams repaired Used Lamborghini XS and made it Like New (earned $150)
+Salesperson Sophia Moore sold Used PickUpCar Ferrari Sedan to Buyer for $100287.0 (earned $ 2000 bonus)
+Mechanic Harper Johnson has quit the FNCDIntern Ava Miller has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Mia Taylor	         1	                               96.0	                      1000.0	               Working
+Sophia Moore	         1	                               82.0	                      2000.0	               Working
+Amelia Brown	         1	                               40.0	                      350.0	               Working
+Mia Williams	         2	                               154.0	                      250.0	               Working
+Isabella Moore	         1	                               61.0	                      200.0	               Working
+Amelia Brown	         2	                               160.0	                      200.0	               Working
+Charlotte Moore	         1	                               60.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Dirty	               Dirty
+Tesla EXL	         36175.0	                               0.0	                      Like New	               Dirty	               Dirty
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Dirty	               Dirty
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Clean	               Clean
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Jaguar Sedan	         47106.25	                               0.0	                      Like New	               Clean	               Clean
+Mercedes Sports	         8231.5	                               0.0	                      Broken	               Clean	               Clean
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Clean	               Clean
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini XS	         19315.0	                               0.0	                      Like New	               Dirty	               Dirty
 *** FNCD Day 4 Wednesday ***
-Opening....(current budget $498836.0)
+Opening....(current budget $491535.0)
+Hired Sophia Moore
+Hired Amelia Brown
 Washing....
-Intern Isabella Williams washed PerformanceCar Bentley SUV and made it Sparkling (earned $200)
-Intern Mia Taylor washed PickUpCar Ferrari Sumo and made it Sparkling (earned $300)
-Intern Amelia Brown washed RegularCar Tesla XL and made it Sparkling (earned $100)
-Mechanic Ava Wilson repaired Broken Bentley Sports and made it Used (earned $250)
-Mechanic Amelia Jones repaired Used BMW Racer and made it Like New (earned $350)
+Intern Isabella Moore washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Amelia Brown washed PickUpCar Bugatti Sports and made it Sparkling (earned $300)
+Intern Charlotte Moore washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Charlotte Johnson washed PickUpCar Bugatti Sports and made it Sparkling (earned $300)
+Intern Isabella Taylor washed PickUpCar Bugatti Sports and made it Sparkling (earned $300)
+Mechanic Amelia Brown repaired Broken Mercedes Sports and made it Used (earned $350)
+Salesperson Sophia Moore sold Like New PerformanceCar Tesla EXL to Buyer for $72350.0 (earned $ 3000 bonus)
+Salesperson Mia Taylor sold Like New PerformanceCar Tesla EXL to Buyer for $72350.0 (earned $ 3000bonus)
+Mechanic Amelia Brown has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Mia Taylor	         2	                               192.0	                      4000.0	               Working
+Sophia Moore	         2	                               164.0	                      5000.0	               Working
+Mia Williams	         2	                               154.0	                      250.0	               Working
+Isabella Moore	         2	                               122.0	                      500.0	               Working
+Amelia Brown	         3	                               240.0	                      500.0	               Working
+Charlotte Moore	         2	                               120.0	                      600.0	               Working
+Charlotte Johnson	         1	                               65.0	                      300.0	               Working
+Isabella Taylor	         1	                               77.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Clean	               Clean
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Dirty	               Dirty
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Jaguar Sedan	         47106.25	                               0.0	                      Like New	               Clean	               Clean
+Mercedes Sports	         26379.0	                               0.0	                      Used	               Clean	               Clean
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Clean	               Clean
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini XS	         19315.0	                               0.0	                      Like New	               Clean	               Clean
 *** FNCD Day 5 Thursday ***
-Opening....(current budget $498023.0)
+Opening....(current budget $483124.0)
+Hired Mia Williams
 Washing....
-Intern Mia Taylor washed RegularCar Ferrari Racer and made it Sparkling (earned $100)
-Intern Amelia Brown washed PerformanceCar Lamborghini XS and made it Sparkling (earned $200)
-Mechanic Ava Wilson repaired Broken Tesla XL and made it Used (earned $150)
-Mechanic Amelia Jones repaired Used Mercedes EXL and made it Like New (earned $150)
+Salesperson Isabella Moore has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Mia Taylor	         2	                               192.0	                      4000.0	               Working
+Sophia Moore	         2	                               164.0	                      5000.0	               Working
+Mia Williams	         2	                               154.0	                      250.0	               Working
+Amelia Brown	         3	                               240.0	                      500.0	               Working
+Charlotte Moore	         2	                               120.0	                      600.0	               Working
+Charlotte Johnson	         1	                               65.0	                      300.0	               Working
+Isabella Taylor	         1	                               77.0	                      300.0	               Working
+Isabella Jones	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Clean	               Clean
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Clean	               Clean
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Jaguar Sedan	         47106.25	                               0.0	                      Like New	               Dirty	               Dirty
+Mercedes Sports	         26379.0	                               0.0	                      Used	               Clean	               Clean
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Clean	               Clean
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini XS	         19315.0	                               0.0	                      Like New	               Clean	               Clean
 *** FNCD Day 6 Friday ***
-Opening....(current budget $497587.0)
+Opening....(current budget $483124.0)
+Hired Mia Williams
 Washing....
-Intern Mia Taylor washed PerformanceCar BMW XL and made it Sparkling (earned $200)
-Intern Mia Taylor washed RegularCar Tesla XL and made it Sparkling (earned $100)
-Mechanic Ava Wilson repaired Used Mercedes Hatchback and made it Like New (earned $350)
-Mechanic Isabella Davis repaired Used Bentley Sports and made it Like New (earned $250)
+Intern Mia Williams washed RegularCar Lamborghini XS and made it Sparkling (earned $100)
+Intern Charlotte Moore washed RegularCar Tesla XL and made it Sparkling (earned $100)
+Intern Charlotte Johnson washed PerformanceCar Ferrari Sports and made it Sparkling (earned $200)
+Intern Isabella Taylor washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Isabella Jones washed RegularCar Lamborghini XS and made it Sparkling (earned $100)
+Mechanic Charlotte Johnson repaired Used Mercedes Sports and made it Like New (earned $350)
+Salesperson Charlotte Moore sold Like New RegularCar Lamborghini XS to Buyer for $38630.0 (earned $ 1000 bonus)
+Salesperson Charlotte Moore sold Like New PickUpCar Jaguar Sedan to Buyer for $94212.5 (earned $ 2000 bonus)
+Mechanic Mia Williams has quit the FNCDSalesperson Mia Taylor has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Sophia Moore	         2	                               164.0	                      5000.0	               Working
+Amelia Brown	         3	                               240.0	                      500.0	               Working
+Charlotte Moore	         3	                               180.0	                      2600.0	               Working
+Charlotte Johnson	         2	                               130.0	                      650.0	               Working
+Isabella Taylor	         2	                               154.0	                      600.0	               Working
+Isabella Jones	         1	                               56.0	                      100.0	               Working
+Ava Taylor	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Clean	               Clean
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Mercedes Sports	         33543.75	                               0.0	                      Like New	               Clean	               Clean
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Dirty	               Dirty
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
 *** FNCD Day 7 Saturday ***
-Opening....(current budget $497163.0)
+Opening....(current budget $479939.0)
+Hired Amelia Brown
+Hired Charlotte Moore
+Purchased Used , Sparkling PerformanceCar for $31333.0Cost
 Washing....
-Intern Isabella Williams washed PickUpCar BMW Racer and made it Sparkling (earned $300)
-Intern Mia Taylor washed PickUpCar Audi Sedan and made it Sparkling (earned $300)
-Intern Amelia Brown washed RegularCar Mercedes EXL and made it Sparkling (earned $100)
-Mechanic Ava Wilson repaired Used Tesla XL and made it Like New (earned $150)
+Intern Amelia Brown washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Charlotte Moore washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Charlotte Johnson washed RegularCar Lamborghini SUV and made it Sparkling (earned $100)
+Intern Charlotte Johnson washed PerformanceCar Lamborghini Hatchback and made it Sparkling (earned $200)
+Intern Isabella Taylor washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Isabella Jones washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Ava Taylor washed RegularCar Lamborghini SUV and made it Sparkling (earned $100)
+Intern Ava Taylor washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Mercedes Sports and made it Sparkling (earned $300)
+Salesperson Charlotte Moore sold Like New PickUpCar Mercedes Sports to Buyer for $67087.5 (earned $ 2000 bonus)
+Salesperson Isabella Jones sold Like New PerformanceCar Porsche Hatchback to Buyer for $75732.0 (earned $ 3000 bonus)
+Salesperson Charlotte Moore sold Like New PerformanceCar Porsche Hatchback to Buyer for $75732.0 (earned $ 3000 bonus)
+Salesperson Amelia Brown sold Like New PerformanceCar Porsche Hatchback to Buyer for $75732.0 (earned $ 3000 bonus)
+Mechanic Mia Williams has quit the FNCDSalesperson Amelia Brown has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Sophia Moore	         2	                               164.0	                      5000.0	               Working
+Charlotte Moore	         4	                               240.0	                      5600.0	               Working
+Charlotte Johnson	         3	                               195.0	                      850.0	               Working
+Isabella Taylor	         3	                               231.0	                      900.0	               Working
+Isabella Jones	         2	                               112.0	                      3100.0	               Working
+Ava Taylor	         1	                               75.0	                      300.0	               Working
+Harper Brown	         0	                               0.0	                      0.0	               Working
+Harper Brown	         1	                               72.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Clean	               Clean
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini SUV	         13907.0	                               0.0	                      Like New	               Clean	               Clean
+Mercedes SUV	         31865.0	                               0.0	                      Used	               Clean	               Clean
 *** FNCD Day 8 is closed on Sunday  ***
 *** FNCD Day 9 Monday ***
-Opening....(current budget $496250.0)
+Opening....(current budget $523872.0)
+Hired Charlotte Moore
+Hired Charlotte Johnson
 Washing....
-Intern Isabella Williams washed PerformanceCar Bentley Sports and made it Sparkling (earned $200)
-Intern Mia Taylor washed PickUpCar Mercedes Hatchback and made it Sparkling (earned $300)
+Intern Charlotte Moore washed RegularCar Lamborghini SUV and made it Sparkling (earned $100)
+Intern Isabella Jones washed PerformanceCar Ferrari Sports and made it Sparkling (earned $200)
+Intern Ava Taylor washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Harper Brown washed PerformanceCar Ferrari Sports and made it Sparkling (earned $200)
+Intern Harper Brown washed RegularCar Lamborghini SUV and made it Sparkling (earned $100)
+Intern Ava Davis washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Mechanic Isabella Taylor repaired Used Mercedes SUV and made it Like New (earned $350)
+Salesperson Sophia Moore has quit the FNCDMechanic Mia Williams has quit the FNCDIntern Ava Davis has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         5	                               300.0	                      5700.0	               Working
+Charlotte Johnson	         3	                               195.0	                      850.0	               Working
+Isabella Taylor	         4	                               308.0	                      1250.0	               Working
+Isabella Jones	         3	                               168.0	                      3300.0	               Working
+Ava Taylor	         2	                               150.0	                      600.0	               Working
+Harper Brown	         1	                               64.0	                      200.0	               Working
+Harper Brown	         2	                               144.0	                      400.0	               Working
+Ava Miller	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar Hatchback	         17116.0	                               0.0	                      Used	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini SUV	         13907.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Mercedes SUV	         46412.5	                               0.0	                      Like New	               Dirty	               Dirty
 *** FNCD Day 10 Tuesday ***
-Opening....(current budget $495611.0)
+Opening....(current budget $521859.0)
+Hired Charlotte Moore
+Hired Charlotte Johnson
+Hired Isabella Taylor
 Washing....
-Intern Mia Taylor washed RegularCar Tesla XL and made it Sparkling (earned $100)
-Name: 	          Total Normal Salary:	Total Bonus:	 No Of Working Days: 
-Ava Wilson	          264.0	             1400.0	           6
-Olivia Williams	          0.0	             0.0	           0
-Amelia Jones	          124.0	             1100.0	           4
-Mia Miller	          0.0	             0.0	           0
-Isabella Davis	          39.0	             250.0	           1
-Amelia Williams	          0.0	             0.0	           0
-Isabella Williams	          385.0	             900.0	           5
-Mia Taylor	          496.0	             1700.0	           8
-Amelia Brown	          370.0	             700.0	           5
+Intern Isabella Taylor washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Mechanic Charlotte Johnson repaired Used Jaguar Hatchback and made it Like New (earned $250)
+Salesperson Harper Brown sold Like New PerformanceCar Jaguar Hatchback to Buyer for $79660.0 (earned $ 3000 bonus)
+Mechanic Mia Williams has quit the FNCDSalesperson Isabella Moore has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         5	                               300.0	                      5700.0	               Working
+Charlotte Johnson	         4	                               260.0	                      1100.0	               Working
+Isabella Taylor	         5	                               385.0	                      1550.0	               Working
+Isabella Jones	         3	                               168.0	                      3300.0	               Working
+Ava Taylor	         2	                               150.0	                      600.0	               Working
+Harper Brown	         2	                               128.0	                      3200.0	               Working
+Harper Brown	         2	                               144.0	                      400.0	               Working
+Ava Miller	         0	                               0.0	                      0.0	               Working
+Isabella Miller	         0	                               0.0	                      0.0	               Working
+Ava Miller	         1	                               62.0	                      300.0	               Working
+Mia Brown	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini Hatchback	         27536.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini SUV	         13907.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Mercedes SUV	         46412.5	                               0.0	                      Like New	               Clean	               Clean
+*** FNCD Day 11 Wednesday ***
+Opening....(current budget $517741.0)
+Hired Charlotte Johnson
+Hired Isabella Taylor
+Washing....
+Intern Charlotte Moore washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Isabella Taylor washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Isabella Jones washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Isabella Miller washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Mia Brown washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Sophia Wilson washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Intern Mia Smith washed PickUpCar Mercedes SUV and made it Sparkling (earned $300)
+Salesperson Harper Brown sold Like New PerformanceCar Lamborghini Hatchback to Buyer for $55072.0 (earned $ 3000 bonus)
+Salesperson Mia Taylor has quit the FNCDMechanic Charlotte Johnson has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         6	                               360.0	                      6000.0	               Working
+Isabella Taylor	         6	                               462.0	                      1850.0	               Working
+Isabella Jones	         4	                               224.0	                      3600.0	               Working
+Ava Taylor	         2	                               150.0	                      600.0	               Working
+Harper Brown	         3	                               192.0	                      6200.0	               Working
+Harper Brown	         3	                               216.0	                      700.0	               Working
+Ava Miller	         1	                               65.0	                      300.0	               Working
+Isabella Miller	         1	                               56.0	                      300.0	               Working
+Ava Miller	         2	                               124.0	                      600.0	               Working
+Mia Brown	         1	                               76.0	                      300.0	               Working
+Sophia Wilson	         1	                               59.0	                      300.0	               Working
+Mia Smith	         1	                               56.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini SUV	         13907.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Mercedes SUV	         46412.5	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 12 Thursday ***
+Opening....(current budget $511038.0)
+Hired Isabella Taylor
+Hired Isabella Jones
+Washing....
+Salesperson Amelia Davis has quit the FNCDMechanic Harper Johnson has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         6	                               360.0	                      6000.0	               Working
+Isabella Taylor	         6	                               462.0	                      1850.0	               Working
+Isabella Jones	         4	                               224.0	                      3600.0	               Working
+Ava Taylor	         2	                               150.0	                      600.0	               Working
+Harper Brown	         3	                               192.0	                      6200.0	               Working
+Harper Brown	         3	                               216.0	                      700.0	               Working
+Ava Miller	         1	                               65.0	                      300.0	               Working
+Isabella Miller	         1	                               56.0	                      300.0	               Working
+Ava Miller	         2	                               124.0	                      600.0	               Working
+Mia Brown	         1	                               76.0	                      300.0	               Working
+Sophia Wilson	         1	                               59.0	                      300.0	               Working
+Mia Smith	         1	                               56.0	                      300.0	               Working
+Sophia Moore	         0	                               0.0	                      0.0	               Working
+Isabella Wilson	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari Sports	         27486.25	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Lamborghini SUV	         13907.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Mercedes SUV	         46412.5	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 13 Friday ***
+Opening....(current budget $511038.0)
+Hired Isabella Taylor
+Hired Isabella Jones
+Washing....
+Salesperson Ava Miller sold Like New RegularCar Lamborghini SUV to Buyer for $27814.0 (earned $ 1000 bonus)
+Salesperson Charlotte Moore sold Like New PerformanceCar Ferrari Sports to Buyer for $54972.5 (earned $ 3000 bonus)
+Salesperson Sophia Moore has quit the FNCDMechanic Emma Smith has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         7	                               420.0	                      9000.0	               Working
+Isabella Taylor	         6	                               462.0	                      1850.0	               Working
+Isabella Jones	         4	                               224.0	                      3600.0	               Working
+Ava Taylor	         2	                               150.0	                      600.0	               Working
+Harper Brown	         3	                               192.0	                      6200.0	               Working
+Harper Brown	         3	                               216.0	                      700.0	               Working
+Ava Miller	         1	                               65.0	                      300.0	               Working
+Isabella Miller	         1	                               56.0	                      300.0	               Working
+Ava Miller	         3	                               186.0	                      1600.0	               Working
+Mia Brown	         1	                               76.0	                      300.0	               Working
+Sophia Wilson	         1	                               59.0	                      300.0	               Working
+Mia Smith	         1	                               56.0	                      300.0	               Working
+Sophia Moore	         0	                               0.0	                      0.0	               Working
+Isabella Wilson	         0	                               0.0	                      0.0	               Working
+Olivia Miller	         0	                               0.0	                      0.0	               Working
+Amelia Wilson	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Mercedes SUV	         46412.5	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 14 Saturday ***
+Opening....(current budget $561888.5)
+Hired Isabella Taylor
+Hired Isabella Jones
+Purchased Like New , Sparkling RegularCar for $15201.0Cost
+Washing....
+Intern Charlotte Moore washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Ava Taylor washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Harper Brown washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Harper Brown washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Ava Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Isabella Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Sophia Wilson washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Sophia Moore washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Olivia Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Isabella Moore washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Isabella Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Mechanic Ava Taylor repaired Broken Bugatti LUX and made it Used (earned $250)
+Mechanic Harper Brown repaired Used Bugatti LUX and made it Like New (earned $250)
+Salesperson Sophia Wilson sold Like New PickUpCar Mercedes SUV to Buyer for $92825.0 (earned $ 2000 bonus)
+Salesperson Mia Taylor has quit the FNCDIntern Ava Miller has quit the FNCDMechanic Amelia Brown has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Charlotte Moore	         8	                               480.0	                      9100.0	               Working
+Isabella Taylor	         6	                               462.0	                      1850.0	               Working
+Isabella Jones	         4	                               224.0	                      3600.0	               Working
+Ava Taylor	         3	                               225.0	                      850.0	               Working
+Harper Brown	         4	                               256.0	                      6300.0	               Working
+Harper Brown	         4	                               288.0	                      950.0	               Working
+Ava Miller	         2	                               130.0	                      400.0	               Working
+Isabella Miller	         2	                               112.0	                      400.0	               Working
+Ava Miller	         3	                               186.0	                      1600.0	               Working
+Mia Brown	         1	                               76.0	                      300.0	               Working
+Sophia Wilson	         2	                               118.0	                      2300.0	               Working
+Mia Smith	         1	                               56.0	                      300.0	               Working
+Sophia Moore	         1	                               70.0	                      100.0	               Working
+Isabella Wilson	         0	                               0.0	                      0.0	               Working
+Olivia Miller	         1	                               67.0	                      100.0	               Working
+Amelia Wilson	         0	                               0.0	                      0.0	               Working
+Isabella Moore	         1	                               80.0	                      100.0	               Working
+Isabella Miller	         1	                               57.0	                      100.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+BMW XL	         12522.0	                               0.0	                      Broken	               Sparkling	               Sparkling
+Bugatti LUX	         41255.0	                               0.0	                      Like New	               Dirty	               Dirty
+Porsche Sumo	         36488.0	                               0.0	                      Broken	               Clean	               Clean
+*** FNCD Day 15 is closed on Sunday  ***
+*** FNCD Day 16 Monday ***
+Opening....(current budget $544522.5)
+Hired Isabella Taylor
+Hired Isabella Jones
+Washing....
+Intern Charlotte Moore washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Isabella Taylor washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Isabella Jones washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Ava Taylor washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Harper Brown washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Harper Brown washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Harper Brown washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Isabella Miller washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Mia Brown washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Sophia Wilson washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Mia Smith washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Sophia Moore washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Isabella Wilson washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Olivia Miller washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Amelia Wilson washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Amelia Wilson washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Intern Amelia Johnson washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Amelia Johnson washed PickUpCar Porsche Sumo and made it Sparkling (earned $300)
+Mechanic Isabella Taylor repaired Broken BMW XL and made it Used (earned $150)
+Mechanic Ava Taylor repaired Broken Porsche Sumo and made it Used (earned $350)
+Salesperson Isabella Moore sold Used PickUpCar Porsche Sumo to Buyer for $105621.0 (earned $ 2000bonus)
+Salesperson Sophia Wilson sold Used PickUpCar Porsche Sumo to Buyer for $105621.0 (earned $ 2000 bonus)
+Salesperson Charlotte Moore sold Used PickUpCar Porsche Sumo to Buyer for $105621.0 (earned $ 2000 bonus)
+Mechanic Mia Williams has quit the FNCDSalesperson Charlotte Moore has quit the FNCDIntern Ava Jones has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         7	                               539.0	                      2000.0	               Working
+Isabella Jones	         5	                               280.0	                      3900.0	               Working
+Ava Taylor	         4	                               300.0	                      1200.0	               Working
+Harper Brown	         5	                               320.0	                      6500.0	               Working
+Harper Brown	         5	                               360.0	                      1250.0	               Working
+Ava Miller	         3	                               195.0	                      700.0	               Working
+Isabella Miller	         3	                               168.0	                      700.0	               Working
+Ava Miller	         3	                               186.0	                      1600.0	               Working
+Mia Brown	         2	                               152.0	                      600.0	               Working
+Sophia Wilson	         3	                               177.0	                      4300.0	               Working
+Mia Smith	         2	                               112.0	                      600.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         1	                               64.0	                      300.0	               Working
+Olivia Miller	         2	                               134.0	                      400.0	               Working
+Amelia Wilson	         1	                               75.0	                      300.0	               Working
+Isabella Moore	         2	                               160.0	                      2100.0	               Working
+Isabella Miller	         1	                               57.0	                      100.0	               Working
+Amelia Johnson	         1	                               70.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+BMW XL	         27967.5	                               0.0	                      Used	               Clean	               Clean
+Bugatti LUX	         41255.0	                               0.0	                      Like New	               Clean	               Clean
+*** FNCD Day 17 Tuesday ***
+Opening....(current budget $639001.5)
+Hired Isabella Taylor
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Intern Isabella Taylor washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Isabella Jones washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Ava Taylor washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Isabella Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Ava Miller washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Mia Smith washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Isabella Wilson washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Olivia Miller washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Amelia Wilson washed PerformanceCar Bugatti LUX and made it Sparkling (earned $200)
+Intern Isabella Moore washed RegularCar BMW XL and made it Sparkling (earned $100)
+Intern Charlotte Brown washed RegularCar BMW XL and made it Sparkling (earned $100)
+Mechanic Isabella Taylor repaired Used BMW XL and made it Like New (earned $150)
+Salesperson Ava Miller sold Like New RegularCar BMW XL to Buyer for $49130.0 (earned $ 1000 bonus)
+Salesperson Amelia Davis has quit the FNCDMechanic Mia Williams has quit the FNCDIntern Ava Davis has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         8	                               616.0	                      2150.0	               Working
+Isabella Jones	         6	                               336.0	                      4000.0	               Working
+Ava Taylor	         5	                               375.0	                      1400.0	               Working
+Harper Brown	         5	                               320.0	                      6500.0	               Working
+Harper Brown	         5	                               360.0	                      1250.0	               Working
+Ava Miller	         3	                               195.0	                      700.0	               Working
+Isabella Miller	         4	                               224.0	                      800.0	               Working
+Ava Miller	         4	                               248.0	                      2600.0	               Working
+Mia Brown	         2	                               152.0	                      600.0	               Working
+Sophia Wilson	         3	                               177.0	                      4300.0	               Working
+Mia Smith	         3	                               168.0	                      800.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         2	                               128.0	                      500.0	               Working
+Olivia Miller	         3	                               201.0	                      600.0	               Working
+Amelia Wilson	         2	                               150.0	                      500.0	               Working
+Isabella Moore	         3	                               240.0	                      2200.0	               Working
+Isabella Miller	         1	                               57.0	                      100.0	               Working
+Amelia Johnson	         1	                               70.0	                      300.0	               Working
+Charlotte Davis	         0	                               0.0	                      0.0	               Working
+Charlotte Brown	         1	                               67.0	                      100.0	               Working
+Evelyn Miller	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti LUX	         41255.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 18 Wednesday ***
+Opening....(current budget $635716.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Purchased Like New , Sparkling RegularCar for $10727.0Cost
+Washing....
+Intern Ava Taylor washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Mechanic Harper Brown repaired Used Jaguar SUV and made it Like New (earned $350)
+Mechanic Harper Johnson has quit the FNCDSalesperson Isabella Moore has quit the FNCDIntern Ava Jones has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         8	                               616.0	                      2150.0	               Working
+Isabella Jones	         6	                               336.0	                      4000.0	               Working
+Ava Taylor	         6	                               450.0	                      1600.0	               Working
+Harper Brown	         5	                               320.0	                      6500.0	               Working
+Harper Brown	         6	                               432.0	                      1600.0	               Working
+Ava Miller	         3	                               195.0	                      700.0	               Working
+Isabella Miller	         4	                               224.0	                      800.0	               Working
+Ava Miller	         4	                               248.0	                      2600.0	               Working
+Mia Brown	         2	                               152.0	                      600.0	               Working
+Sophia Wilson	         3	                               177.0	                      4300.0	               Working
+Mia Smith	         3	                               168.0	                      800.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         2	                               128.0	                      500.0	               Working
+Olivia Miller	         3	                               201.0	                      600.0	               Working
+Amelia Wilson	         2	                               150.0	                      500.0	               Working
+Isabella Moore	         3	                               240.0	                      2200.0	               Working
+Isabella Miller	         1	                               57.0	                      100.0	               Working
+Amelia Johnson	         1	                               70.0	                      300.0	               Working
+Charlotte Davis	         0	                               0.0	                      0.0	               Working
+Charlotte Brown	         1	                               67.0	                      100.0	               Working
+Evelyn Miller	         0	                               0.0	                      0.0	               Working
+Isabella Smith	         0	                               0.0	                      0.0	               Working
+Charlotte Brown	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti LUX	         41255.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Porsche Sumo	         13181.0	                               0.0	                      Like New	               Clean	               Clean
+Audi Sedan	         23018.0	                               0.0	                      Like New	               Clean	               Clean
+Jaguar SUV	         32212.5	                               0.0	                      Like New	               Dirty	               Dirty
+*** FNCD Day 19 Thursday ***
+Opening....(current budget $617511.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Intern Isabella Taylor washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Ava Taylor washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Harper Brown washed RegularCar Porsche Sumo and made it Sparkling (earned $100)
+Intern Ava Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Miller washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Ava Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Mia Brown washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Mia Smith washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Olivia Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Amelia Wilson washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Moore washed RegularCar Porsche Sumo and made it Sparkling (earned $100)
+Intern Isabella Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Evelyn Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Evelyn Miller washed RegularCar Porsche Sumo and made it Sparkling (earned $100)
+Intern Isabella Smith washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Smith washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Charlotte Brown washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Intern Isabella Davis washed PerformanceCar Audi Sedan and made it Sparkling (earned $200)
+Mechanic Harper Johnson has quit the FNCDSalesperson Amelia Davis has quit the FNCDIntern Ava Davis has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         9	                               693.0	                      2350.0	               Working
+Isabella Jones	         6	                               336.0	                      4000.0	               Working
+Ava Taylor	         7	                               525.0	                      1800.0	               Working
+Harper Brown	         5	                               320.0	                      6500.0	               Working
+Harper Brown	         7	                               504.0	                      1700.0	               Working
+Ava Miller	         4	                               260.0	                      1000.0	               Working
+Isabella Miller	         5	                               280.0	                      1000.0	               Working
+Ava Miller	         5	                               310.0	                      2900.0	               Working
+Mia Brown	         3	                               228.0	                      800.0	               Working
+Sophia Wilson	         3	                               177.0	                      4300.0	               Working
+Mia Smith	         4	                               224.0	                      1000.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         2	                               128.0	                      500.0	               Working
+Olivia Miller	         4	                               268.0	                      900.0	               Working
+Amelia Wilson	         3	                               225.0	                      800.0	               Working
+Isabella Moore	         4	                               320.0	                      2300.0	               Working
+Isabella Miller	         2	                               114.0	                      400.0	               Working
+Amelia Johnson	         1	                               70.0	                      300.0	               Working
+Charlotte Davis	         0	                               0.0	                      0.0	               Working
+Charlotte Brown	         2	                               134.0	                      300.0	               Working
+Evelyn Miller	         1	                               55.0	                      100.0	               Working
+Isabella Smith	         1	                               63.0	                      200.0	               Working
+Charlotte Brown	         1	                               57.0	                      200.0	               Working
+Sophia Williams	         0	                               0.0	                      0.0	               Working
+Isabella Davis	         1	                               66.0	                      200.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti LUX	         41255.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Porsche Sumo	         13181.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi Sedan	         23018.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Jaguar SUV	         32212.5	                               0.0	                      Like New	               Clean	               Clean
+*** FNCD Day 20 Friday ***
+Opening....(current budget $612785.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Intern Isabella Taylor washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Jones washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Ava Taylor washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Sophia Wilson washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Mia Smith washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Wilson washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Moore washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Amelia Johnson washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Charlotte Davis washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Evelyn Miller washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Smith washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Sophia Williams washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Isabella Davis washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Intern Mia Wilson washed PickUpCar Jaguar SUV and made it Sparkling (earned $300)
+Salesperson Sophia Wilson sold Like New PickUpCar Jaguar SUV to Buyer for $64425.0 (earned $ 2000 bonus)
+Salesperson Harper Brown sold Like New PickUpCar Jaguar SUV to Buyer for $64425.0 (earned $ 2000 bonus)
+Salesperson Isabella Moore sold Like New PerformanceCar Bugatti LUX to Buyer for $82510.0 (earned $ 3000 bonus)
+Salesperson Isabella Smith sold Like New PerformanceCar Bugatti LUX to Buyer for $82510.0 (earned $ 3000bonus)
+Salesperson Sophia Moore has quit the FNCDIntern Ava Miller has quit the FNCDMechanic Charlotte Johnson has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         10	                               770.0	                      2650.0	               Working
+Isabella Jones	         7	                               392.0	                      4300.0	               Working
+Ava Taylor	         8	                               600.0	                      2100.0	               Working
+Harper Brown	         6	                               384.0	                      8500.0	               Working
+Harper Brown	         8	                               576.0	                      2000.0	               Working
+Ava Miller	         5	                               325.0	                      1300.0	               Working
+Isabella Miller	         6	                               336.0	                      1300.0	               Working
+Ava Miller	         5	                               310.0	                      2900.0	               Working
+Mia Brown	         3	                               228.0	                      800.0	               Working
+Sophia Wilson	         4	                               236.0	                      6300.0	               Working
+Mia Smith	         5	                               280.0	                      1300.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         3	                               192.0	                      800.0	               Working
+Olivia Miller	         4	                               268.0	                      900.0	               Working
+Amelia Wilson	         3	                               225.0	                      800.0	               Working
+Isabella Moore	         5	                               400.0	                      5300.0	               Working
+Isabella Miller	         3	                               171.0	                      700.0	               Working
+Amelia Johnson	         2	                               140.0	                      600.0	               Working
+Charlotte Davis	         1	                               73.0	                      300.0	               Working
+Charlotte Brown	         3	                               201.0	                      600.0	               Working
+Evelyn Miller	         2	                               110.0	                      400.0	               Working
+Isabella Smith	         2	                               126.0	                      3200.0	               Working
+Charlotte Brown	         2	                               114.0	                      500.0	               Working
+Sophia Williams	         1	                               55.0	                      300.0	               Working
+Isabella Davis	         2	                               132.0	                      500.0	               Working
+Mia Wilson	         1	                               59.0	                      300.0	               Working
+Amelia Taylor	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sports	         23657.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Porsche Sumo	         13181.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi Sedan	         23018.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 21 Saturday ***
+Opening....(current budget $596339.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Salesperson Ava Miller sold Like New RegularCar Porsche Sumo to Buyer for $26362.0 (earned $ 1000 bonus)
+Salesperson Olivia Miller sold Like New PerformanceCar Audi Sedan to Buyer for $46036.0 (earned $ 3000 bonus)
+Salesperson Isabella Jones sold Like New PerformanceCar Audi Sedan to Buyer for $46036.0 (earned $ 3000 bonus)
+Salesperson Harper Brown sold Like New PickUpCar Bugatti Sports to Buyer for $47314.0 (earned $ 2000 bonus)
+Mechanic Harper Johnson has quit the FNCDSalesperson Amelia Brown has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         10	                               770.0	                      2650.0	               Working
+Isabella Jones	         8	                               448.0	                      7300.0	               Working
+Ava Taylor	         8	                               600.0	                      2100.0	               Working
+Harper Brown	         7	                               448.0	                      10500.0	               Working
+Harper Brown	         8	                               576.0	                      2000.0	               Working
+Ava Miller	         6	                               390.0	                      2300.0	               Working
+Isabella Miller	         6	                               336.0	                      1300.0	               Working
+Ava Miller	         5	                               310.0	                      2900.0	               Working
+Mia Brown	         3	                               228.0	                      800.0	               Working
+Sophia Wilson	         4	                               236.0	                      6300.0	               Working
+Mia Smith	         5	                               280.0	                      1300.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         3	                               192.0	                      800.0	               Working
+Olivia Miller	         5	                               335.0	                      3900.0	               Working
+Amelia Wilson	         3	                               225.0	                      800.0	               Working
+Isabella Moore	         5	                               400.0	                      5300.0	               Working
+Isabella Miller	         3	                               171.0	                      700.0	               Working
+Amelia Johnson	         2	                               140.0	                      600.0	               Working
+Charlotte Davis	         1	                               73.0	                      300.0	               Working
+Charlotte Brown	         3	                               201.0	                      600.0	               Working
+Evelyn Miller	         2	                               110.0	                      400.0	               Working
+Isabella Smith	         2	                               126.0	                      3200.0	               Working
+Charlotte Brown	         2	                               114.0	                      500.0	               Working
+Sophia Williams	         1	                               55.0	                      300.0	               Working
+Isabella Davis	         2	                               132.0	                      500.0	               Working
+Mia Wilson	         1	                               59.0	                      300.0	               Working
+Amelia Taylor	         0	                               0.0	                      0.0	               Working
+Amelia Brown	         0	                               0.0	                      0.0	               Working
+Mia Williams	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 22 is closed on Sunday  ***
+*** FNCD Day 23 Monday ***
+Opening....(current budget $634401.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Purchased Broken , Dirty RegularCar for $15992.0Cost
+Washing....
+Intern Isabella Taylor washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Ava Miller washed PerformanceCar Tesla LUX and made it Sparkling (earned $200)
+Intern Ava Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Mia Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Johnson washed PerformanceCar Tesla LUX and made it Sparkling (earned $200)
+Intern Evelyn Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Wilson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Mechanic Isabella Taylor repaired Broken Audi LUX and made it Used (earned $150)
+Mechanic Ava Taylor repaired Used Audi LUX and made it Like New (earned $150)
+Salesperson Mia Taylor has quit the FNCDMechanic Mia Smith has quit the FNCDIntern Mia Williams has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         11	                               847.0	                      2800.0	               Working
+Isabella Jones	         8	                               448.0	                      7300.0	               Working
+Ava Taylor	         9	                               675.0	                      2250.0	               Working
+Harper Brown	         7	                               448.0	                      10500.0	               Working
+Harper Brown	         8	                               576.0	                      2000.0	               Working
+Ava Miller	         7	                               455.0	                      2500.0	               Working
+Isabella Miller	         6	                               336.0	                      1300.0	               Working
+Ava Miller	         6	                               372.0	                      3000.0	               Working
+Mia Brown	         4	                               304.0	                      900.0	               Working
+Sophia Wilson	         4	                               236.0	                      6300.0	               Working
+Sophia Moore	         2	                               140.0	                      400.0	               Working
+Isabella Wilson	         3	                               192.0	                      800.0	               Working
+Olivia Miller	         5	                               335.0	                      3900.0	               Working
+Amelia Wilson	         3	                               225.0	                      800.0	               Working
+Isabella Moore	         5	                               400.0	                      5300.0	               Working
+Isabella Miller	         3	                               171.0	                      700.0	               Working
+Amelia Johnson	         3	                               210.0	                      800.0	               Working
+Charlotte Davis	         1	                               73.0	                      300.0	               Working
+Charlotte Brown	         3	                               201.0	                      600.0	               Working
+Evelyn Miller	         3	                               165.0	                      500.0	               Working
+Isabella Smith	         2	                               126.0	                      3200.0	               Working
+Charlotte Brown	         2	                               114.0	                      500.0	               Working
+Sophia Williams	         1	                               55.0	                      300.0	               Working
+Isabella Davis	         2	                               132.0	                      500.0	               Working
+Mia Wilson	         1	                               59.0	                      300.0	               Working
+Amelia Taylor	         0	                               0.0	                      0.0	               Working
+Amelia Brown	         0	                               0.0	                      0.0	               Working
+Amelia Wilson	         1	                               52.0	                      100.0	               Working
+Olivia Davis	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi LUX	         15473.75	                               0.0	                      Like New	               Dirty	               Dirty
+Tesla LUX	         22014.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sedan	         17846.0	                               0.0	                      Like New	               Clean	               Clean
+*** FNCD Day 24 Tuesday ***
+Opening....(current budget $616990.5)
+Hired Isabella Taylor
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Intern Isabella Taylor washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Isabella Jones washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Isabella Jones washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Harper Brown washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Ava Miller washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Mia Brown washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Sophia Moore washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Isabella Wilson washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Olivia Miller washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Isabella Moore washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Charlotte Davis washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Evelyn Miller washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Isabella Smith washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Charlotte Brown washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Sophia Williams washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Isabella Davis washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Mia Wilson washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Amelia Brown washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Amelia Wilson washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Ava Williams washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Olivia Smith washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Olivia Smith washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Intern Harper Moore washed PickUpCar Bugatti Sedan and made it Sparkling (earned $300)
+Salesperson Sophia Williams sold Like New PickUpCar Bugatti Sedan to Buyer for $35692.0 (earned $ 2000 bonus)
+Mechanic Amelia Brown has quit the FNCDSalesperson Isabella Moore has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         12	                               924.0	                      3100.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Ava Taylor	         9	                               675.0	                      2250.0	               Working
+Harper Brown	         7	                               448.0	                      10500.0	               Working
+Harper Brown	         9	                               648.0	                      2300.0	               Working
+Ava Miller	         8	                               520.0	                      2800.0	               Working
+Isabella Miller	         6	                               336.0	                      1300.0	               Working
+Ava Miller	         7	                               434.0	                      3300.0	               Working
+Mia Brown	         5	                               380.0	                      1200.0	               Working
+Sophia Wilson	         4	                               236.0	                      6300.0	               Working
+Sophia Moore	         3	                               210.0	                      700.0	               Working
+Isabella Wilson	         4	                               256.0	                      1100.0	               Working
+Olivia Miller	         6	                               402.0	                      4200.0	               Working
+Amelia Wilson	         3	                               225.0	                      800.0	               Working
+Isabella Moore	         6	                               480.0	                      5600.0	               Working
+Isabella Miller	         3	                               171.0	                      700.0	               Working
+Amelia Johnson	         3	                               210.0	                      800.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         4	                               268.0	                      900.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         3	                               171.0	                      800.0	               Working
+Sophia Williams	         2	                               110.0	                      2300.0	               Working
+Isabella Davis	         3	                               198.0	                      800.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         0	                               0.0	                      0.0	               Working
+Amelia Brown	         1	                               63.0	                      300.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         0	                               0.0	                      0.0	               Working
+Ava Williams	         1	                               63.0	                      300.0	               Working
+Olivia Smith	         1	                               50.0	                      300.0	               Working
+Harper Moore	         1	                               56.0	                      300.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi LUX	         15473.75	                               0.0	                      Like New	               Clean	               Clean
+Tesla LUX	         22014.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 25 Wednesday ***
+Opening....(current budget $606922.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Intern Isabella Taylor washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Ava Taylor washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Harper Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Harper Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Ava Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Isabella Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Ava Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Mia Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Sophia Wilson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Sophia Moore washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Isabella Wilson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Olivia Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Wilson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Isabella Miller washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Johnson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Charlotte Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Charlotte Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Sophia Williams washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Isabella Davis washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Taylor washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Amelia Brown washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Olivia Davis washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Ava Williams washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Olivia Smith washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Ava Smith washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Intern Emma Wilson washed RegularCar Audi LUX and made it Sparkling (earned $100)
+Salesperson Ava Miller sold Like New PickUpCar Jaguar EXL to Buyer for $56924.0 (earned $ 2000 bonus)
+Mechanic Amelia Brown has quit the FNCDSalesperson Amelia Brown has quit the FNCDIntern Ava Miller has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         13	                               1001.0	                      3200.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Ava Taylor	         10	                               750.0	                      2350.0	               Working
+Harper Brown	         8	                               512.0	                      10600.0	               Working
+Harper Brown	         10	                               720.0	                      2400.0	               Working
+Ava Miller	         9	                               585.0	                      2900.0	               Working
+Isabella Miller	         7	                               392.0	                      1400.0	               Working
+Ava Miller	         8	                               496.0	                      5300.0	               Working
+Mia Brown	         6	                               456.0	                      1300.0	               Working
+Sophia Wilson	         5	                               295.0	                      6400.0	               Working
+Sophia Moore	         4	                               280.0	                      800.0	               Working
+Isabella Wilson	         5	                               320.0	                      1200.0	               Working
+Olivia Miller	         7	                               469.0	                      4300.0	               Working
+Amelia Wilson	         4	                               300.0	                      900.0	               Working
+Isabella Moore	         6	                               480.0	                      5600.0	               Working
+Isabella Miller	         4	                               228.0	                      800.0	               Working
+Amelia Johnson	         4	                               280.0	                      900.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         5	                               335.0	                      1000.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         4	                               228.0	                      900.0	               Working
+Sophia Williams	         3	                               165.0	                      2400.0	               Working
+Isabella Davis	         4	                               264.0	                      900.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         1	                               58.0	                      100.0	               Working
+Amelia Brown	         2	                               126.0	                      400.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         1	                               77.0	                      100.0	               Working
+Ava Williams	         2	                               126.0	                      400.0	               Working
+Olivia Smith	         2	                               100.0	                      400.0	               Working
+Harper Moore	         1	                               56.0	                      300.0	               Working
+Ava Smith	         1	                               55.0	                      100.0	               Working
+Emma Wilson	         1	                               53.0	                      100.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi LUX	         15473.75	                               0.0	                      Like New	               Sparkling	               Sparkling
+Tesla LUX	         22014.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 26 Thursday ***
+Opening....(current budget $600749.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Salesperson Mia Taylor has quit the FNCDMechanic Harper Johnson has quit the FNCDIntern Mia Williams has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         13	                               1001.0	                      3200.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Ava Taylor	         10	                               750.0	                      2350.0	               Working
+Harper Brown	         8	                               512.0	                      10600.0	               Working
+Harper Brown	         10	                               720.0	                      2400.0	               Working
+Ava Miller	         9	                               585.0	                      2900.0	               Working
+Isabella Miller	         7	                               392.0	                      1400.0	               Working
+Ava Miller	         8	                               496.0	                      5300.0	               Working
+Mia Brown	         6	                               456.0	                      1300.0	               Working
+Sophia Wilson	         5	                               295.0	                      6400.0	               Working
+Sophia Moore	         4	                               280.0	                      800.0	               Working
+Isabella Wilson	         5	                               320.0	                      1200.0	               Working
+Olivia Miller	         7	                               469.0	                      4300.0	               Working
+Amelia Wilson	         4	                               300.0	                      900.0	               Working
+Isabella Moore	         6	                               480.0	                      5600.0	               Working
+Isabella Miller	         4	                               228.0	                      800.0	               Working
+Amelia Johnson	         4	                               280.0	                      900.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         5	                               335.0	                      1000.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         4	                               228.0	                      900.0	               Working
+Sophia Williams	         3	                               165.0	                      2400.0	               Working
+Isabella Davis	         4	                               264.0	                      900.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         1	                               58.0	                      100.0	               Working
+Amelia Brown	         2	                               126.0	                      400.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         1	                               77.0	                      100.0	               Working
+Ava Williams	         2	                               126.0	                      400.0	               Working
+Olivia Smith	         2	                               100.0	                      400.0	               Working
+Harper Moore	         1	                               56.0	                      300.0	               Working
+Ava Smith	         1	                               55.0	                      100.0	               Working
+Emma Wilson	         1	                               53.0	                      100.0	               Working
+Evelyn Moore	         0	                               0.0	                      0.0	               Working
+Isabella Williams	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi LUX	         15473.75	                               0.0	                      Like New	               Sparkling	               Sparkling
+Tesla LUX	         22014.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 27 Friday ***
+Opening....(current budget $600749.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Salesperson Amelia Brown sold Like New PerformanceCar Tesla LUX to Buyer for $44028.0 (earned $ 3000bonus)
+Salesperson Sophia Moore has quit the FNCDMechanic Mia Williams has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         13	                               1001.0	                      3200.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Ava Taylor	         10	                               750.0	                      2350.0	               Working
+Harper Brown	         8	                               512.0	                      10600.0	               Working
+Harper Brown	         10	                               720.0	                      2400.0	               Working
+Ava Miller	         9	                               585.0	                      2900.0	               Working
+Isabella Miller	         7	                               392.0	                      1400.0	               Working
+Ava Miller	         8	                               496.0	                      5300.0	               Working
+Mia Brown	         6	                               456.0	                      1300.0	               Working
+Sophia Wilson	         5	                               295.0	                      6400.0	               Working
+Sophia Moore	         4	                               280.0	                      800.0	               Working
+Isabella Wilson	         5	                               320.0	                      1200.0	               Working
+Olivia Miller	         7	                               469.0	                      4300.0	               Working
+Amelia Wilson	         4	                               300.0	                      900.0	               Working
+Isabella Moore	         6	                               480.0	                      5600.0	               Working
+Isabella Miller	         4	                               228.0	                      800.0	               Working
+Amelia Johnson	         4	                               280.0	                      900.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         5	                               335.0	                      1000.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         4	                               228.0	                      900.0	               Working
+Sophia Williams	         3	                               165.0	                      2400.0	               Working
+Isabella Davis	         4	                               264.0	                      900.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         1	                               58.0	                      100.0	               Working
+Amelia Brown	         3	                               189.0	                      3400.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         1	                               77.0	                      100.0	               Working
+Ava Williams	         2	                               126.0	                      400.0	               Working
+Olivia Smith	         2	                               100.0	                      400.0	               Working
+Harper Moore	         1	                               56.0	                      300.0	               Working
+Ava Smith	         1	                               55.0	                      100.0	               Working
+Emma Wilson	         1	                               53.0	                      100.0	               Working
+Evelyn Moore	         0	                               0.0	                      0.0	               Working
+Isabella Williams	         0	                               0.0	                      0.0	               Working
+Emma Jones	         0	                               0.0	                      0.0	               Working
+Harper Moore	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Audi LUX	         15473.75	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 28 Saturday ***
+Opening....(current budget $597686.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Washing....
+Salesperson Isabella Moore sold Like New RegularCar Audi LUX to Buyer for $30947.5 (earned $ 1000bonus)
+Salesperson Amelia Brown sold Like New RegularCar Audi LUX to Buyer for $30947.5 (earned $ 1000 bonus)
+Mechanic Harper Johnson has quit the FNCDSalesperson Charlotte Moore has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         13	                               1001.0	                      3200.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Ava Taylor	         10	                               750.0	                      2350.0	               Working
+Harper Brown	         8	                               512.0	                      10600.0	               Working
+Harper Brown	         10	                               720.0	                      2400.0	               Working
+Ava Miller	         9	                               585.0	                      2900.0	               Working
+Isabella Miller	         7	                               392.0	                      1400.0	               Working
+Ava Miller	         8	                               496.0	                      5300.0	               Working
+Mia Brown	         6	                               456.0	                      1300.0	               Working
+Sophia Wilson	         5	                               295.0	                      6400.0	               Working
+Sophia Moore	         4	                               280.0	                      800.0	               Working
+Isabella Wilson	         5	                               320.0	                      1200.0	               Working
+Olivia Miller	         7	                               469.0	                      4300.0	               Working
+Amelia Wilson	         4	                               300.0	                      900.0	               Working
+Isabella Moore	         7	                               560.0	                      6600.0	               Working
+Isabella Miller	         4	                               228.0	                      800.0	               Working
+Amelia Johnson	         4	                               280.0	                      900.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         5	                               335.0	                      1000.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         4	                               228.0	                      900.0	               Working
+Sophia Williams	         3	                               165.0	                      2400.0	               Working
+Isabella Davis	         4	                               264.0	                      900.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         1	                               58.0	                      100.0	               Working
+Amelia Brown	         4	                               252.0	                      4400.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         1	                               77.0	                      100.0	               Working
+Ava Williams	         2	                               126.0	                      400.0	               Working
+Olivia Smith	         2	                               100.0	                      400.0	               Working
+Harper Moore	         1	                               56.0	                      300.0	               Working
+Ava Smith	         1	                               55.0	                      100.0	               Working
+Emma Wilson	         1	                               53.0	                      100.0	               Working
+Evelyn Moore	         0	                               0.0	                      0.0	               Working
+Isabella Williams	         0	                               0.0	                      0.0	               Working
+Emma Jones	         0	                               0.0	                      0.0	               Working
+Harper Moore	         0	                               0.0	                      0.0	               Working
+Amelia Johnson	         0	                               0.0	                      0.0	               Working
+Amelia Miller	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+*** FNCD Day 29 is closed on Sunday  ***
+*** FNCD Day 30 Monday ***
+Opening....(current budget $595543.5)
+Hired Isabella Jones
+Hired Ava Taylor
+Purchased Broken , Dirty RegularCar for $17199.0Cost
+Washing....
+Intern Olivia Miller washed PickUpCar Bentley EXL and made it Sparkling (earned $300)
+Intern Amelia Taylor washed RegularCar Bugatti Sumo and made it Sparkling (earned $100)
+Intern Harper Moore washed PerformanceCar BMW Sumo and made it Sparkling (earned $200)
+Intern Emma Wilson washed PickUpCar Bentley EXL and made it Sparkling (earned $300)
+Mechanic Isabella Taylor repaired Broken Bugatti Sumo and made it Used (earned $150)
+Mechanic Ava Taylor repaired Used Bugatti Sumo and made it Like New (earned $150)
+Salesperson Sophia Moore has quit the FNCDMechanic Ava Taylor has quit the FNCD
+Name: 	      No Of Working Days:	            Total Normal Salary:	            Total Bonus: 	         Working Status :
+Isabella Taylor	         14	                               1078.0	                      3350.0	               Working
+Isabella Jones	         9	                               504.0	                      7600.0	               Working
+Harper Brown	         8	                               512.0	                      10600.0	               Working
+Harper Brown	         10	                               720.0	                      2400.0	               Working
+Ava Miller	         9	                               585.0	                      2900.0	               Working
+Isabella Miller	         7	                               392.0	                      1400.0	               Working
+Ava Miller	         8	                               496.0	                      5300.0	               Working
+Mia Brown	         6	                               456.0	                      1300.0	               Working
+Sophia Wilson	         5	                               295.0	                      6400.0	               Working
+Sophia Moore	         4	                               280.0	                      800.0	               Working
+Isabella Wilson	         5	                               320.0	                      1200.0	               Working
+Olivia Miller	         8	                               536.0	                      4600.0	               Working
+Amelia Wilson	         4	                               300.0	                      900.0	               Working
+Isabella Moore	         7	                               560.0	                      6600.0	               Working
+Isabella Miller	         4	                               228.0	                      800.0	               Working
+Amelia Johnson	         4	                               280.0	                      900.0	               Working
+Charlotte Davis	         2	                               146.0	                      600.0	               Working
+Charlotte Brown	         5	                               335.0	                      1000.0	               Working
+Evelyn Miller	         4	                               220.0	                      800.0	               Working
+Isabella Smith	         3	                               189.0	                      3500.0	               Working
+Charlotte Brown	         4	                               228.0	                      900.0	               Working
+Sophia Williams	         3	                               165.0	                      2400.0	               Working
+Isabella Davis	         4	                               264.0	                      900.0	               Working
+Mia Wilson	         2	                               118.0	                      600.0	               Working
+Amelia Taylor	         2	                               116.0	                      200.0	               Working
+Amelia Brown	         4	                               252.0	                      4400.0	               Working
+Amelia Wilson	         2	                               104.0	                      400.0	               Working
+Olivia Davis	         1	                               77.0	                      100.0	               Working
+Ava Williams	         2	                               126.0	                      400.0	               Working
+Olivia Smith	         2	                               100.0	                      400.0	               Working
+Harper Moore	         2	                               112.0	                      500.0	               Working
+Ava Smith	         1	                               55.0	                      100.0	               Working
+Emma Wilson	         2	                               106.0	                      400.0	               Working
+Evelyn Moore	         0	                               0.0	                      0.0	               Working
+Isabella Williams	         0	                               0.0	                      0.0	               Working
+Emma Jones	         0	                               0.0	                      0.0	               Working
+Harper Moore	         0	                               0.0	                      0.0	               Working
+Amelia Johnson	         0	                               0.0	                      0.0	               Working
+Amelia Miller	         0	                               0.0	                      0.0	               Working
+Charlotte Taylor	         0	                               0.0	                      0.0	               Working
+Charlotte Brown	         0	                               0.0	                      0.0	               Working
+
+Name: 	     Cost Price:	            Sale Price:	            Condition: 	         Cleanliness : 	     Status: 
+Tesla XL	         10534.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Ferrari EXL	         11434.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bentley XL	         10992.0	                               0.0	                      Like New	               Sparkling	               Sparkling
+Bugatti Sumo	         21468.75	                               0.0	                      Like New	               Dirty	               Dirty
+BMW Sumo	         21723.0	                               0.0	                      Like New	               Clean	               Clean
+Bentley EXL	         30242.0	                               0.0	                      Broken	               Clean	               Clean
