@@ -5,7 +5,7 @@
 # Java Version :17.0.6
 
 # UML Diagram
-##Changes made compare to previous UML are following:
+<h1>Changes made compare to previous UML are following:</h1>
 
 #Vehicle class: datatype added: carCleanliness(),carType(),carStatus(); 
                methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
