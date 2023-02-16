@@ -4,12 +4,6 @@
 
 <h2>Java Version :17.0.6</h2>
 
-<h3> References:</h3>
-<h4>https://www.w3schools.com/</h4>
-<h4>https://www.geeksforgeeks.org/</h4>
-<h4>https://www.tutorialspoint.com/</h4>
-<h4>https://www.javatpoint.com/ </h4>
-
 <h1>Changes made compare to previous UML are following:</h1>
 
 <h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus() and 
@@ -29,5 +23,6 @@
 
 ![image](https://user-images.githubusercontent.com/59019087/219286539-db090aa6-f1c0-4310-9371-e3af69a280a6.png)
 
-
+# Assumptions : We are starting the simulation considering that there are three types of staffs of each type Intern, Salerperson, Mechanic. 
+Also we are considering that the inventory has 10 Vehicles of each type. The store vehicle stock has 4 of each types of Cars i.e. Regular Cars, Pick Up Cars, Performance Cars. Also we are considering that one sales person can sell multiple cars. Also it is likely that one of each type of Mechanic, Salesperson and Intern can quit. 
 
