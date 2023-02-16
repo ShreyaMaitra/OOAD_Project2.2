@@ -6,16 +6,16 @@
 
 <h1>Changes made compare to previous UML are following:</h1>
 
-<h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus(); 
+<h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus() \n
                methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
       
 <h3>Buyer class:</h3> methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()
 
-<h3>PerformanceCar, RegularCar, PickupCar classes:</h3> methods added: VehicleWashBonus(), VehicleRepairBonus(), VehicleSaleBonus()
+<h3>PerformanceCars class, RegularCars class, PickupCars class:</h3> methods added: VehicleWashBonus(), VehicleRepairBonus(), VehicleSaleBonus()
 
 <h3>Staff class:</h3> method added: StaffType()
 
-<h3>SalesPerson, Mechanic, Intern class:</h3> methods added: StaffType(),determineStaffSalary()
+<h3>Salesperson class, Mechanic class, Intern class:</h3> methods added: StaffType(),determineStaffSalary()
 
 <h3>FNCD class:</h3> methods added: hireIntern(), checkOperatingBudget()
 
