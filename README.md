@@ -2,15 +2,14 @@
 
 # Team Members : Shaily Goyal, Shreya Maitra
 
-# Java Version :17.0.6
+<h2>Java Version :17.0.6</h2>
 
-# UML Diagram
 <h1>Changes made compare to previous UML are following:</h1>
 
-#Vehicle class: datatype added: carCleanliness(),carType(),carStatus(); 
+<h3>Vehicle class</h3>: datatype added: carCleanliness(),carType(),carStatus(); 
                methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
       
-#Buyer class: methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()
+<h3>Buyer class</h3>: methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()
 
 #PerformanceCar, RegularCar, PickupCar classes: methods added: VehicleWashBonus(), VehicleRepairBonus(), VehicleSaleBonus()
 
