@@ -1,6 +1,7 @@
 
 public class Salesperson extends Staff {
    
+    // Below is an example of inheritance
     public double determineStaffsalary ()
     {
         //Random random = new Random();
@@ -16,22 +17,7 @@ public class Salesperson extends Staff {
         return "Salesperson";
     }
 
-    public Double getSale (String vehicleType)
-    {
-        double bonus= 0;;
-        switch (vehicleType) {
-            case "RegularCar":
-            bonus = 1000.0;
-            break;
-            case "PickUpCar":
-            bonus = 2000.0;
-            break;
-            case "PerformanceCar":
-            bonus = 3000.0;
-            break;
-        }
-        return bonus;
-}
+   
 }
 
     

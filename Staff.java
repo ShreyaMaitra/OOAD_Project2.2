@@ -1,32 +1,61 @@
 import java.util.Random;
 
-public class Staff {
+// Below is an example of abstraction 
+
+abstract class Staff {
+
     private double salary;
     private String fullname;
     public String type;
-    //String = fullname;
     private Double bonus = 0.0;
     private Double totalSalary =0.0;
     int noOfWorkingDays;
+    String staffStatus;
+   
+    double bonusAmount;
     public Staff()
     {
        this.fullname = setStaffname();
-       //System.out.println("i m in cnstructor111");
        this.salary = determineStaffsalary();
        this.type = staffType();
-      //this.washBonus = washBonus;
-      // System.out.println("i m in cnstructor2222");
+       this.staffStatus = "Working";
+    
     }
 
-
-    public double determineStaffsalary() {
-        return salary;
-    }
-
-
-    public String getStaffname()
+// Below Getter and setter methods defined for Encapsulation
+// these methods are access in our code using below :
+// Staff s = new Staff();
+ // s.setStaffStatus("Working");
+ // System.out.println("Name: " + s.getStaffStatus());
+    public String getStaffStatus()
     {
-        return fullname;
+        
+        return staffStatus;
+    }
+
+    public void setStaffStatus(String staffStatus)
+    {
+        this.staffStatus= staffStatus;
+    }
+
+    public String getStaffType( )
+    {
+        return type;
+    }
+
+    public void setStaffType(String type)
+    {
+        this.type= type;
+    }
+
+    public void setBonusAmount (double bonusAmount)
+    {
+        this.bonusAmount= bonusAmount;
+    }
+
+    public Double getBonusAmount ()
+    {
+        return bonusAmount;
     }
 
     public Double staffDailySalary()
@@ -34,9 +63,20 @@ public class Staff {
         return salary;
     }
 
-    public String staffType()
+
+    public double determineStaffsalary() {
+        return salary;
+    }
+
+    // Below Getter and setter methods defined for Encapsulation
+// these methods are access in our code using below :
+// Staff s = new Staff();
+ // System.out.println("Name: " + person.getStaffname());
+
+ 
+    public String getStaffname()
     {
-        return type;
+        return fullname;
     }
 
     public String setStaffname ()
@@ -53,6 +93,15 @@ public class Staff {
       fullname = firstName + " " + lastName;
       return fullname;
     }
+
+  
+
+    public String staffType()
+    {
+        return type;
+    }
+
+    
 
     public Double getStaffsalary ()
     { 
@@ -81,9 +130,9 @@ public class Staff {
         return totalSalary;
     }
 
-    public void updateStaffBonus (int i)
+    public void updateStaffBonus (Double bonus)
     { 
-        this.bonus = this.bonus+ i;
+        this.bonus = this.bonus+ bonus;
     }
 
     public Double getTotalStaffBonus ()
@@ -91,10 +140,8 @@ public class Staff {
         return bonus;
     }
 
-    public Double wash (double washBonus)
-    {
-        return washBonus;
-    }
+    
+
 
 }
 

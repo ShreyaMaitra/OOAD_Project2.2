@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+//Example of cohesion as all the methods related to Vehicle are desribed in one class
 public class Vehicle {
     
     private Double carCost;
@@ -21,11 +22,22 @@ public class Vehicle {
        this.carType = VehicleType();
        this.carCost = VehicleCost();
       this.carCleanliness = determineCleanliness();
-      this.carStatus = "Stock";
+      this.carStatus = "In Stock";
 
-      // System.out.println("i m in cnstructor2222");
     }
     
+    public String getVehicleStatus()
+    {
+        return carStatus;
+    }
+
+
+    public void setVehicleStatus(String carStatus )
+    {
+        
+        this.carStatus = carStatus;
+    }
+
     public String VehicleName()
     {
         return carName;
@@ -35,8 +47,8 @@ public class Vehicle {
     {
         return carName;
     }
-
-    public Double VehicleCost()
+    //The below method is also defined in Class PerformanceCars, PickUpCars, RegularCars.. hence example of polymorphism
+    public Double VehicleCost()   
     {
         return carCost;
     }
@@ -65,11 +77,6 @@ public class Vehicle {
      return carStatus;
     }
 
-    public void setVehicleStatus(String carStatus)
-    {
-       
-     this.carStatus = carStatus;
-    }
 
     public String getCarname ()
     {
@@ -135,13 +142,18 @@ public class Vehicle {
     public int VehicleRepairBonus() {
         return bonus;
     }
+
+    public int VehicleSaleBonus() {
+        return bonus;
+    }
     
 
-    public void addSoldCarList(Vehicle mostExpensive)
+    /*public void addSoldCarList(Vehicle mostExpensive)
     {
         
         soldCarlist.add(mostExpensive);
     }
+    */
 
     
     public ArrayList<Vehicle> getInventory()
@@ -149,4 +161,6 @@ public class Vehicle {
        
     return v; 
     }
+
+
 }

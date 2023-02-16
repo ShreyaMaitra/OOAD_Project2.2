@@ -1,18 +1,39 @@
 import java.util.Random;
 
 public class Buyer {
-   
-    String buyingIntend ;
-    String buyingAbility;
-    String desiredVehicle;
+    
+    private String buyingIntend ;
+    private double buyingAbility;
+    private String desiredVehicle;
+    private String type;
 
+    public Buyer()
+    {
+       this.buyingIntend = setBuyingIntention();
+      this.desiredVehicle = setDesiredVehicle();
+         this.type = "buyer";
+
+    }
+   
+    public double getBuyingAbility() {
+        return buyingAbility;
+    }
+
+    public void setBuyingAbility(double buyingAbility) {
+        this.buyingAbility = buyingAbility;
+    }
+   
 
     public String getBuyingIntention() {
         return buyingIntend;
     }
         
-    public String setBuyingIntention(String buyingIntend2) {
-        return buyingIntend;
+    public String setBuyingIntention() {
+        
+        final String[] cond =  { "Just Looking", "Wants One", "Needs One"};
+        Random rand = new Random();
+        String condition = cond[rand.nextInt(cond.length)];
+        return condition;
         
     }
     public String getDesiredVehicle() {

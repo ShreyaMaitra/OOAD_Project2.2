@@ -1,12 +1,13 @@
 import java.util.Random;
 
+// Below is an example of inheritance
 public class RegularCars extends Vehicle{
     public String VehicleType ()
     {
         return "RegularCar";
     }
 
-    public Double VehicleCost()
+    public Double VehicleCost()    // example of polymorphism
     {   
         Random r = new Random ();
         int min = 10000;
@@ -24,5 +25,9 @@ public class RegularCars extends Vehicle{
     public int VehicleRepairBonus ()
     {
         return 150;
+    }
+    public int VehicleSaleBonus ()
+    {
+        return 1000;
     }
 }

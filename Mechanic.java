@@ -1,3 +1,5 @@
+
+// Below is an example of inheritance
 public class Mechanic extends Staff{
     public double determineStaffsalary ()
     {
@@ -14,8 +16,5 @@ public class Mechanic extends Staff{
         return "Mechanic";
     }
 
-    public double repair (double repairBonus)
-    {
-        return repairBonus;
-    }
+
 }

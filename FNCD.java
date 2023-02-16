@@ -3,8 +3,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
+
 public class FNCD extends Buyer {
 
+    // method to add intern
     public static void hireIntern (int c,ArrayList<Staff> s ,FileWriter writer) throws IOException
         {
             for (int i = c; i < 3; i++)
@@ -16,6 +18,7 @@ public class FNCD extends Buyer {
         
         }
         
+        // tracking if operating budget is required and update operating budget accrdingly
         public static double checkOperatingBudget (double operatingBudget, FileWriter writer) throws IOException
         {
            if (operatingBudget <0)
@@ -28,8 +31,8 @@ public class FNCD extends Buyer {
         }
 
 
-
-        public static double addVehicle (int c,ArrayList<Vehicle> v , String type, double operatingBudget, FileWriter writer) throws IOException
+      // method to add vehicle
+        public static double addVehicle (int c,ArrayList<Vehicle> v ,ArrayList<Vehicle> inventoryList, String type, double operatingBudget, FileWriter writer) throws IOException
         {
             double cost= 0;
             if ( type.equals("RegularCar"))
@@ -37,6 +40,7 @@ public class FNCD extends Buyer {
             for (int i = c; i < 4; i++)
             {
                 v.add(new RegularCars());
+                inventoryList.addAll(v); // add new vehicles to the inventory list
                 cost = v.get(i).VehicleCost();
                 operatingBudget = operatingBudget - cost;
                 writer.write("Purchased "+ v.get(i).VehicleCondition()+" , "+v.get(i).VehicleCleanliness()+" "
@@ -68,7 +72,7 @@ public class FNCD extends Buyer {
         return operatingBudget;
     }
        
-    public static double opening(Double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v,FileWriter writer) throws IOException {
+    public static double opening(Double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v,ArrayList<Vehicle> inventoryList,FileWriter writer) throws IOException {
        writer.write("Opening....(current budget $"+operatingBudget+")\n");
         System.out.println("Opening....(current budget $"+operatingBudget+")");
 
@@ -77,17 +81,22 @@ public class FNCD extends Buyer {
         int pcounter = 0;
         int ucounter =0 ;
         double val = operatingBudget;
+        
+        //check if number of interns are three or not
         for (Staff person : s) {
-             if (person.staffType().equals("Intern"))
+             if (person.getStaffType().equals("Intern"))
               { 
                  counter++ ;
               }
         }
+
+        // if interns are less then hire intern
         if ( counter < 3)
         {
             hireIntern(counter, s, writer);
         }
 
+        // Check vehicle count in inventory
         for (Vehicle car : v) {
             if (car.VehicleType().equals("RegularCar"))
               { 
@@ -102,22 +111,24 @@ public class FNCD extends Buyer {
                 ucounter++ ;
               }
         }
-
+        
+        // if vehicle count is less then add vehicle
         if ( ccounter < 4)
-        {     val= addVehicle(ccounter, v, "RegularCar",operatingBudget, writer)  ;      
+        {     val= addVehicle(ccounter, v,inventoryList, "RegularCar",operatingBudget, writer)  ;      
         }
         
         if ( pcounter < 4)
-        {     val=  addVehicle(ccounter, v, "PerformanceCar", operatingBudget, writer);
+        {     val=  addVehicle(ccounter, v, inventoryList,"PerformanceCar", operatingBudget, writer);
         }
         if ( ucounter < 4)
-        {     val= addVehicle(ccounter, v, "PickUpCar", operatingBudget, writer);      
+        {     val= addVehicle(ccounter, v,inventoryList, "PickUpCar", operatingBudget, writer);      
         }
+        // checking operating budget
         double val1 = checkOperatingBudget(val,writer);
         return val1;
 }
 
-public static double washing(double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v, FileWriter writer) throws IOException {
+public static void washing( ArrayList<Staff> s, ArrayList<Vehicle> v, FileWriter writer) throws IOException {
     writer.write("Washing....\n");
     System.out.println("Washing....");
 
@@ -125,15 +136,15 @@ public static double washing(double operatingBudget, ArrayList<Staff> s, ArrayLi
     ArrayList<Vehicle> cleanCars = new ArrayList<Vehicle>();
     
     for (Vehicle car : v) {
+        // Creating list of Dirty Cars
         if (car.VehicleCleanliness().equals("Dirty"))
         dirtyCars.add(car);
+        // Creating list of Clean Cars
         if (car.VehicleCleanliness().equals("Clean"))
         cleanCars.add(car);
     }
     
-    //System.out.println("dirtyCars size" + dirtyCars.size());
-    //System.out.println("cleanCars size" + cleanCars.size());
-
+    // Washing to be done by Interns
     for (Staff person : s) {
         if (person.staffType().equals("Intern"))
        {   
@@ -142,17 +153,17 @@ public static double washing(double operatingBudget, ArrayList<Staff> s, ArrayLi
     {   Random random = new Random();
         Vehicle firstDirtyCar = dirtyCars.get(random.nextInt(dirtyCars.size()));
         double chanceDirty = random.nextDouble();
+        // Checking probability and updating cleanliness according
         if (chanceDirty < 0.8) {
             firstDirtyCar.setCleanliness("Clean");
         } else if (chanceDirty < 0.9) {
             firstDirtyCar.setCleanliness("Sparkling");
-            person.wash(firstDirtyCar.VehicleWashBonus());
-            person.updateStaffBonus(firstDirtyCar.VehicleWashBonus());
-            person.updateTotalStaffSalary(person.getStaffsalary());
-            person.updateWorkingDays();
-
-            operatingBudget = operatingBudget -firstDirtyCar.VehicleWashBonus() - person.getStaffsalary();
-            //interns earns based on car cleaned
+            
+            //interns earns bonus based on car cleaned
+            person.setBonusAmount(firstDirtyCar.VehicleWashBonus());
+            person.setStaffStatus("Worked");
+  
+                   
             writer.write("Intern "+ person.getStaffname()+" washed "+ firstDirtyCar.VehicleType()+" "+
             firstDirtyCar.VehicleName()+" and made it Sparkling (earned $"+firstDirtyCar.VehicleWashBonus()+")\n");
             System.out.println("Intern "+ person.getStaffname()+" washed "+ firstDirtyCar.VehicleType()+" "+
@@ -163,17 +174,15 @@ public static double washing(double operatingBudget, ArrayList<Staff> s, ArrayLi
         Random random = new Random();
         Vehicle firstCleanCar = cleanCars.get(random.nextInt(cleanCars.size()));        
         double chanceClean = random.nextDouble();
+         // Checking probability and updating cleanliness according
         if (chanceClean < 0.05) {
             firstCleanCar.setCleanliness("Dirty");
         } else if (chanceClean < 0.7) {
             firstCleanCar.setCleanliness("Sparkling");
-            person.wash(firstCleanCar.VehicleWashBonus());
-
-            person.updateStaffBonus(firstCleanCar.VehicleWashBonus());
-            person.updateTotalStaffSalary(person.getStaffsalary());
-            System.out.println("Staff Salary "+person.getStaffsalary() );
-            person.updateWorkingDays();
-            operatingBudget = operatingBudget -firstCleanCar.VehicleWashBonus() - person.getStaffsalary();
+            
+            //interns earn bonus based on car cleaned
+            person.setBonusAmount(firstCleanCar.VehicleWashBonus());
+            person.setStaffStatus("Worked");
             
             writer.write("Intern "+ person.getStaffname()+" washed "+ firstCleanCar.VehicleType()+" "+
             firstCleanCar.VehicleName()+" and made it Sparkling (earned $"+firstCleanCar.VehicleWashBonus()+")\n");
@@ -182,12 +191,10 @@ public static double washing(double operatingBudget, ArrayList<Staff> s, ArrayLi
          }}
        }
     }
-
-    double val = checkOperatingBudget(operatingBudget, writer);
-    return val;
+  
   }
 
-public static double repairing(double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v,FileWriter writer ) throws IOException {
+public static void repairing(ArrayList<Staff> s, ArrayList<Vehicle> v,FileWriter writer ) throws IOException {
     
    // writer.write("Repairing....\n");
     System.out.println("Repairing....");
@@ -195,6 +202,7 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
     ArrayList<Vehicle> repairCarsList = new ArrayList<Vehicle>();
     int cnt =0;
     
+    // Repair is done on Broken and Used Vehicles so creating the list of vehicles to be repaired
     for (Vehicle car : v) {
         if (car.VehicleCondition().equals("Broken") || car.VehicleCondition().equals("Used") )
        { 
@@ -202,11 +210,11 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
         }
     }
     
-    System.out.println("repairCarsList size" + repairCarsList.size());
+   // System.out.println("repairCarsList size" + repairCarsList.size());
 
     for (Staff person : s) {
-        
-        if (person.staffType().equals("Mechanic"))
+        // Mechanics will perform the repai activity
+        if (person.getStaffType().equals("Mechanic") )
        {   
        
         if (repairCarsList.size() != 0)
@@ -214,22 +222,21 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
         Vehicle firstrepairCar = repairCarsList.get(random.nextInt(repairCarsList.size()));
         double chanceRepair = random.nextDouble();
         double cost;
+         // Checking repair probability and cnt to count number of vehicles repaired as each Mechanic can repair just two vehicles
         if (chanceRepair < 0.8 && cnt < 2 ) {
             if (firstrepairCar.VehicleCondition().equals("Broken"))
              {
+                // Updating car condition after repair
                 firstrepairCar.setCondition("Used");
-                //inc sp by 50%
+                //inc cost price of car
                 cost = firstrepairCar.VehicleCost();
                 firstrepairCar.setCarPrice(cost *1.5);
                 cnt ++;
-                person.wash(firstrepairCar.VehicleRepairBonus());
 
+                //calculating bonus earned and daily salary
+                person.setBonusAmount(firstrepairCar.VehicleRepairBonus());
+                person.setStaffStatus("Worked");
 
-                person.updateStaffBonus(firstrepairCar.VehicleRepairBonus());
-                person.updateTotalStaffSalary(person.getStaffsalary());
-                person.updateWorkingDays();
-
-                operatingBudget = operatingBudget -firstrepairCar.VehicleRepairBonus() - person.getStaffsalary();
                 
                 writer.write("Mechanic "+ person.getStaffname()+" repaired Broken "+firstrepairCar.VehicleName()+
                 " and made it "+firstrepairCar.VehicleCondition()+" (earned $"+firstrepairCar.VehicleRepairBonus()+")\n");
@@ -239,19 +246,17 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
                 System.out.println("Cost current" +firstrepairCar.VehicleCost()); 
              }
             else if (firstrepairCar.VehicleCondition().equals("Used"))
-            {
+            {    // Updating car condition after repair
                 firstrepairCar.setCondition("Like New");
-                //inc sp by 25%
+                //inc cost price of car
                 cost = firstrepairCar.VehicleCost();
                 firstrepairCar.setCarPrice(cost *1.25);
                 cnt ++;
-                person.wash(firstrepairCar.VehicleRepairBonus());
 
-                person.updateStaffBonus(firstrepairCar.VehicleRepairBonus());
-                person.updateTotalStaffSalary(person.getStaffsalary());
-                person.updateWorkingDays();
-
-                operatingBudget = operatingBudget -firstrepairCar.VehicleRepairBonus() - person.getStaffsalary();
+                //calculating bonus earned and daily salary
+                person.setBonusAmount(firstrepairCar.VehicleRepairBonus());
+                person.setStaffStatus("Worked");
+                
 
                 writer.write("Mechanic "+ person.getStaffname()+" repaired Used "+
                 firstrepairCar.VehicleName()+" and made it "+firstrepairCar.VehicleCondition()+" (earned $"+
@@ -272,40 +277,68 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
     
        }
     }
-    double val = checkOperatingBudget(operatingBudget, writer);
-    return val;
+
   }
 
-  public static double selling(Double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v, String dayOfWeek, ArrayList<Vehicle> invList , FileWriter writer) throws IOException
+  public static double selling(Double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v, String dayOfWeek, 
+  ArrayList<Vehicle> invList , FileWriter writer) throws IOException
   {
+
+    System.out.println("Selling....");
     int numOfBuyers =0;
-    String buyingIntend;
     Random random = new Random();
+    double SellingPrice=0;
+    // Based on days of the week we determine the number of buyers
     if (dayOfWeek.equals("Friday") || dayOfWeek.equals("Saturday")) 
      { numOfBuyers = random.nextInt(7) + 2;
     }
      else {
          numOfBuyers = random.nextInt(6);
      }
+
+     System.out.println("numOfBuyers" + numOfBuyers);
      String desiredVehicle="";
      ArrayList<Vehicle> buyCarsList = new ArrayList<Vehicle>();
      ArrayList<Vehicle> buyInvCarsList = new ArrayList<Vehicle>();
-     ArrayList<Buyer> Buyers = new ArrayList<Buyer>(numOfBuyers);
      Vehicle mostExpensive = new Vehicle();
-     Vehicle SoldVehicle = new Vehicle();
-     int randomNum = random.nextInt(100) + 1;  // generate a random number between 1 and 100
-     for (Buyer b:Buyers){
-     if (randomNum <= 10) {
-         buyingIntend = "Just Looking";
-     } else if (randomNum <= 50) {
-         buyingIntend = "Wants One";
-     } else {
-         buyingIntend = "Needs One";
-     }
-    b.setBuyingIntention(buyingIntend);
-    b.setDesiredVehicle();
+     ArrayList<Vehicle> SoldVehicle = new ArrayList<Vehicle>();
+     
+     // Creating the list of buyers
+     ArrayList<Buyer> Buyers = new ArrayList<Buyer>();
+     for (int k = 0 ; k <numOfBuyers; k++)
+     {Buyers.add(new Buyer());}
+    
+     for (Buyer b:Buyers)
+     {
     desiredVehicle = b.getDesiredVehicle();
-          
+    // setting buying ability based buying intention
+    if (b.getBuyingIntention().equals("Just Looking"))
+    {b.setBuyingAbility(0.1);  }
+    if (b.getBuyingIntention().equals("Wants One"))
+    {b.setBuyingAbility(0.4);  }
+    if(b.getBuyingIntention().equals("Needs One"))
+    {b.setBuyingAbility(0.7);  }
+     
+       
+    ArrayList<Staff> SalesStaff = new ArrayList<Staff>();
+    for (Staff person : s) {
+       // System.out.println(person.staffType());
+        if (person.getStaffType().equals("Salesperson"))
+       { //System.out.println("i m in sales person");
+         SalesStaff.add(person);
+         //System.out.println(SalesStaff.staffType());
+        }
+    }
+        
+       // randomly selecting a salesperson)
+       Random rand = new Random();
+       //Staff selectedSalesperson = SalesStaff.get(rand.nextInt(SalesStaff.size()));
+       System.out.println("i am above index printing ..."+ SalesStaff.size());
+       int index = rand.nextInt(SalesStaff.size());
+       System.out.println("index printing ..." + index);
+       Staff selectedSalesperson = SalesStaff.get(index);
+
+     // creating the list of cars based on the buyers choice which are not broken 
       for (Vehicle car : v) {
         if (car.VehicleType().equals(desiredVehicle) && !car.VehicleCondition().equals("Broken") )
        { 
@@ -313,6 +346,7 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
         }
      }
    
+     // find the most expensive car out of the created list of cars which are desired by the buyer
         if (buyCarsList.size() != 0){
         mostExpensive = buyCarsList.get(0);  
         for (Vehicle buyCarsLst : buyCarsList) {
@@ -320,12 +354,86 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
               mostExpensive = buyCarsLst;
                           }
         }
-        SoldVehicle.addSoldCarList(mostExpensive);
-        invList.remove(mostExpensive);
+     
+        Random checkSale = new Random();
+        double ifSold = checkSale.nextDouble() ;
+          // System.out.println("i m here above if" + b.getBuyingIntention()+" "+ifSold);   
+
+        if(b.getBuyingIntention().equals("Needs One") &&  ifSold < 0.7)
+        {   System.out.println("i m here above if" + b.getBuyingIntention()+" "+ifSold);   
+            b.setBuyingAbility(0.7);         
+            SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+            v.remove(mostExpensive); // removing from list of vehicles
+            // Updating the car status in inventory as sold
+            for (Vehicle InvCarsLst : invList) {
+                 if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                    InvCarsLst.setVehicleStatus("Sold");
+                    InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+            }
+            }
+           
+            selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+            selectedSalesperson.setStaffStatus("Worked");
+            mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+            SellingPrice = mostExpensive.getVehicleSP();
+            writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+            mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+            mostExpensive.VehicleSaleBonus() +" bonus)\n");
+        }
+        else if (b.getBuyingIntention().equals("Wants One") && ifSold < 0.4)
+        {   System.out.println("i m here above if" + b.getBuyingIntention()+" "+ifSold);   
+            b.setBuyingAbility(0.4);  
+
+            SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+            v.remove(mostExpensive); // removing from list of vehicles
+            // Updating the car status in inventory as sold
+            for (Vehicle InvCarsLst : invList) {
+                 if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                    InvCarsLst.setVehicleStatus("Sold");
+                    InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+            }
+            }
+           
+            selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+            selectedSalesperson.setStaffStatus("Worked");
+            mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+            SellingPrice = mostExpensive.getVehicleSP();
+            writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+            mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+            mostExpensive.VehicleSaleBonus() +"bonus)\n");
+        }
+        else if (b.getBuyingIntention().equals("Just Looking") && ifSold < 0.1)
+        {   System.out.println("i m here above if" + b.getBuyingIntention()+" "+ifSold);   
+            b.setBuyingAbility(0.1); 
+            SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+            v.remove(mostExpensive); // removing from list of vehicles
+            // Updating the car status in inventory as sold
+            for (Vehicle InvCarsLst : invList) {
+                 if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                    InvCarsLst.setVehicleStatus("Sold");
+                    InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+            }
+            }
+           
+            selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+            selectedSalesperson.setStaffStatus("Worked"); 
+            mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+            SellingPrice = mostExpensive.getVehicleSP();
+            writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+            mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+            mostExpensive.VehicleSaleBonus() +" bonus)\n");
+        }
+        else { SellingPrice = 0;}
+    
+        
+      
         }
         else { 
+
+            // check for the available cars desired by the buyer in the inventory which are in stock
             for (Vehicle invcar : invList) {
-                if (invcar.VehicleType().equals(desiredVehicle) && !invcar.VehicleCondition().equals("Broken") )
+                if (invcar.VehicleType().equals(desiredVehicle) && !invcar.VehicleCondition().equals("Broken") 
+                && invcar.getVehicleStatus().equals("In Stock"))
                { 
                 buyInvCarsList.add(invcar);
                 }
@@ -336,28 +444,175 @@ public static double repairing(double operatingBudget, ArrayList<Staff> s, Array
                     if (buyInvCarsLst.getVehicleCost() > mostExpensive.getVehicleCost()) {
                       mostExpensive = buyInvCarsLst;}
                     }
-                      SoldVehicle.addSoldCarList(mostExpensive);
-                      invList.remove(mostExpensive);
-                      mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
-                    
-                
-                }
-          
+                      
+                    Random checkSale = new Random();
+                    double ifSold = checkSale.nextDouble() ;
+                          // checking chances of buying when checking from vehicle inventory
+                    if(b.getBuyingIntention().equals("Needs One") &&  ifSold < (0.7*0.8))
+                    {b.setBuyingAbility(0.7);         
+                        SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+                        v.remove(mostExpensive); // removing from list of vehicles
+                        // Updating the car status in inventory as sold
+                        for (Vehicle InvCarsLst : invList) {
+                             if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                                InvCarsLst.setVehicleStatus("Sold");
+                                InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+                        }
+                        }
+                       
+                        selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+                        selectedSalesperson.setStaffStatus("Worked");
+                        mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+                        SellingPrice = mostExpensive.getVehicleSP();
+                        writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+                        mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+                        mostExpensive.VehicleSaleBonus() +" bonus)\n");
+                    }
+                    else if (b.getBuyingIntention().equals("Wants One") && ifSold < (0.4*0.8))
+                    {b.setBuyingAbility(0.4);  
+                        SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+                        v.remove(mostExpensive); // removing from list of vehicles
+                        // Updating the car status in inventory as sold
+                        for (Vehicle InvCarsLst : invList) {
+                             if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                                InvCarsLst.setVehicleStatus("Sold");
+                                InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+                        }
+                        }
+                       
+                        selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+                        selectedSalesperson.setStaffStatus("Worked");
+                        mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+                        SellingPrice = mostExpensive.getVehicleSP();
+                        writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+                        mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+                        mostExpensive.VehicleSaleBonus() +" bonus)\n");
+                    }
+                    else if (b.getBuyingIntention().equals("Just Looking") && ifSold < (0.1*0.8))
+                    {b.setBuyingAbility(0.1); 
+                        SoldVehicle.add(mostExpensive); // Creating List of sold cars        
+                        v.remove(mostExpensive); // removing from list of vehicles
+                        // Updating the car status in inventory as sold
+                        for (Vehicle InvCarsLst : invList) {
+                             if (InvCarsLst.getVehicleName().equals(mostExpensive.getVehicleName())) {
+                                InvCarsLst.setVehicleStatus("Sold");
+                                InvCarsLst.setVehicleSP(mostExpensive.getVehicleCost());
+                        }
+                        }
+                       
+                        selectedSalesperson.setBonusAmount(mostExpensive.VehicleSaleBonus());
+                        selectedSalesperson.setStaffStatus("Worked"); 
+                        mostExpensive.setVehicleSP(mostExpensive.getVehicleCost());
+                        SellingPrice = mostExpensive.getVehicleSP();
+                        writer.write("Salesperson "+ selectedSalesperson.getStaffname()+" sold "+mostExpensive.VehicleCondition() +" "+
+                        mostExpensive.VehicleType()+" "+ mostExpensive.VehicleName()+" to Buyer for $" + SellingPrice +" (earned $ "+
+                        mostExpensive.VehicleSaleBonus() +" bonus)\n");
+                    }
+                    else {SellingPrice = 0;}     
+
+                       
+                    }
         }
+       
+   
     }
+
     
-    double operatingBudgetf = operatingBudget + mostExpensive.getVehicleSP();
+    double operatingBudgetf = operatingBudget + SellingPrice;
     double val = checkOperatingBudget(operatingBudgetf, writer);
     return val;
+    
+}
+
+  public static double ending(double operatingBudget, ArrayList<Staff> s, ArrayList<Staff> allStaffs, FileWriter writer) throws IOException
+  { double perDaySalary = 0;
+    for (Staff person : s) {
+    if (person.getStaffStatus().equals("Worked"))
+   {     
+     person.updateStaffBonus(person.getBonusAmount());
+     person.updateTotalStaffSalary(person.getStaffsalary());
+     person.updateWorkingDays();
+     perDaySalary = perDaySalary + person.getStaffsalary() + person.getBonusAmount();
+     person.setStaffStatus("Working");
     }
+  }
+  int SalespersonQuit =0;
+  int InternQuit =0;
+  int MechanicQuit =0;
  
+  // Randomly quiting
+  Random rand = new Random();
+  for (Staff person : allStaffs) {
+    if (person.getStaffType().equals("Intern") && (rand.nextDouble() < 0.1) && InternQuit <1)
+    {
+        person.setStaffStatus("Quit"); // updating in staff type that they have quit
+      s.remove(person); // removing from store staff list
+     InternQuit++;
+    writer.write(person.getStaffType()+" "+person.getStaffname()+" has quit the FNCD");}
+   
+    if (person.getStaffType().equals("Salesperson") && (rand.nextDouble() < 0.1) && SalespersonQuit <1 )
+    { 
+        person.setStaffStatus("Quit");
+        s.remove(person);
+        SalespersonQuit++;
+        writer.write(person.getStaffType()+" "+person.getStaffname()+" has quit the FNCD");}
+     
+    if (person.getStaffType().equals("Mechanic") && (rand.nextDouble() < 0.1) && MechanicQuit <1)
+    {
+        person.setStaffStatus("Quit");
+        s.remove(person);
+        MechanicQuit++;
 
-  public static void ending(double operatingBudget, ArrayList<Staff> s, ArrayList<Vehicle> v)
-  {
-
-    // pay Staff
-    // Staff salary per day out of operating budget
-    //
+    writer.write(person.getStaffType()+" "+person.getStaffname()+" has quit the FNCD");}
+ 
   }
 
+   // forming list of interns
+   ArrayList<Staff> InternList = new ArrayList<>();
+  
+  for (Staff interns : s) 
+  {     if (interns.getStaffType().equals("Intern"))
+   { 
+    InternList.add(interns);
+  }
+}
+
+ //Removing teh interns list from Store Staff list
+ for (Staff iL : InternList) 
+ {s.remove(iL);
+ }
+
+
+
+  // adding from intern to Mechanics
+  for (int i = 0; i < SalespersonQuit; i ++)
+  {
+    Staff mech = InternList.get(i);
+    mech.setStaffType("Mechanic");
+    InternList.remove(mech);
+    s.add(mech);
+
+  }
+
+  // adding from intern to Sales person
+  for (int i = 0; i < MechanicQuit; i ++)
+  {
+    Staff sale = InternList.get(i);
+    sale.setStaffType("Salesperson");
+    InternList.remove(sale);
+    s.add(sale);
+
+  }
+
+  //adding if any remaining interns left
+  for (Staff iL1 : InternList) 
+ {s.add(iL1);
+ }
+
+  operatingBudget = operatingBudget - perDaySalary;
+
+  //after paying the salary per day checking operating bonus
+  double val = checkOperatingBudget(operatingBudget, writer);
+ return val;
+}
 }
