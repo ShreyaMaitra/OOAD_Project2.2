@@ -4,6 +4,12 @@
 
 <h2>Java Version :17.0.6</h2>
 
+<h3> REferences:</h3>
+<h4>https://www.w3schools.com/</h4>
+<h4>https://www.geeksforgeeks.org/</h4>
+<h4>https://www.tutorialspoint.com/</h4>
+<h4>https://www.javatpoint.com/ </h4>
+
 <h1>Changes made compare to previous UML are following:</h1>
 
 <h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus() and 
