@@ -95,7 +95,7 @@ public class MonthlyWorkingStatisics {
             operatingBudget= FNCD.ending(operatingBudget, s, allStaffs , writer);
             writer.write("\n");
             writer.write("Name: \t      No Of Working Days:\t            Total Normal Salary:\t            Total Bonus: \t         Working Status :\n");
-            for (Staff person : s) {
+            for (Staff person : allStaffs) {
       
               writer.write(person.getStaffname()+"\t         "+person.getWorkingDays()+"\t                               "+person.getTotalStaffSalary()
               +"\t                      "  +person.getTotalStaffBonus()+"\t               "+person.getStaffStatus() + "\n");
