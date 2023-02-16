@@ -23,7 +23,11 @@
 
 ![image](https://user-images.githubusercontent.com/59019087/219286539-db090aa6-f1c0-4310-9371-e3af69a280a6.png)
 
+# UML Changes
+we are only considering Staff as the abstract class . In the previous UML we had considered Vehicle also as an abstract class.
+
 # Assumptions : 
-<h3>We are starting the simulation considering that there are three types of staffs of each type Intern, Salerperson, Mechanic. </h3>
-<h3>Also we are considering that the inventory has 10 Vehicles of each type. The store vehicle stock has 4 of each types of Cars i.e. Regular Cars, Pick Up Cars, Performance Cars. Also we are considering that one sales person can sell multiple cars. Also it is likely that one of each type of Mechanic, Salesperson and Intern can quit. </h3>
+
+We are starting the simulation considering that there are three types of staffs of each type Intern, Salerperson, Mechanic. 
+Also we are considering that the inventory has 10 Vehicles of each type. The store vehicle stock has 4 of each types of Cars i.e. Regular Cars, Pick Up Cars, Performance Cars. Also we are considering that one sales person can sell multiple cars. Also it is likely that one of each type of Mechanic, Salesperson and Intern can quit. 
 
