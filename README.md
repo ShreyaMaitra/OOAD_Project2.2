@@ -5,17 +5,17 @@
 # Java Version :17.0.6
 
 # UML Diagram
-Vehicle class: datatype added: carCleanliness(),carType(),carStatus(); \n
+#Vehicle class: datatype added: carCleanliness(),carType(),carStatus(); 
                methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
       
-Buyer class: methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()\n
+#Buyer class: methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()
 
-PerformanceCar, RegularCar, PickupCar classes: methods added: VehicleWashBonus(), VehicleRepairBonus(), VehicleSaleBonus()
+#PerformanceCar, RegularCar, PickupCar classes: methods added: VehicleWashBonus(), VehicleRepairBonus(), VehicleSaleBonus()
 
-Staff class: method added: StaffType()
+#Staff class: method added: StaffType()
 
-SalesPerson, Mechanic, Intern class: methods added: StaffType(),determineStaffSalary()
+#SalesPerson, Mechanic, Intern class: methods added: StaffType(),determineStaffSalary()
 
-FNCD class: methods added: hireIntern(), checkOperatingBudget()
+#FNCD class: methods added: hireIntern(), checkOperatingBudget()
 
 
