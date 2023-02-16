@@ -17,7 +17,7 @@ public class MonthlyWorkingStatisics {
         ArrayList<Staff> s = new ArrayList<>(); 
         for (int i = 0; i <3; i++)
         {  
-            //s.add(new Intern());
+            s.add(new Intern());
             s.add(new Mechanic());
             s.add(new Salesperson());
         }
@@ -67,7 +67,7 @@ public class MonthlyWorkingStatisics {
         
         //Initialiszing starting budget
         Double operatingBudget = 500000.00;
-        
+        System.out.println("size " + s.size());
         //Running FNCD for 30 days
         for (int i = 1; i <31; i++)
         {  
@@ -102,13 +102,12 @@ public class MonthlyWorkingStatisics {
               System.out.println("Name: " + person.getStaffname()+"  Total Normal Salary: " + person.getTotalStaffSalary()+
               "  Total Bonus: " + person.getTotalStaffBonus()+"  Total Days Worked: " + person.getWorkingDays());
             }  
-            
+           
             writer.write("\n");
             writer.write("Name: \t     Cost Price:\t            Sale Price:\t            Condition: \t         Cleanliness : \t     Status: \n");
             for (Vehicle car : v) {
-      
-              writer.write(car.getVehicleName()+"\t         "+car.getVehicleCost()+"\t                               "+car.getVehicleSP()
-              +"\t                      "  +car.VehicleCondition()+"\t               "+car.VehicleCleanliness() + "\t               "+car.getVehicleStatus()+ "\n");
+                car.setVehicleSP(car.getVehicleCost());
+              writer.write(car.getVehicleName()+"\t         "+car.getVehicleCost()+"\t           "+car.getVehicleSP()    +"\t            "  +car.VehicleCondition()+"\t              "+car.VehicleCleanliness() + "\t             "+car.getVehicleStatus()+ "\n");
              
             }  
             
@@ -116,12 +115,7 @@ public class MonthlyWorkingStatisics {
        }
        
     }
-    for (Vehicle car : v) {
-  
-        System.out.println("Car Name: " + car.VehicleName()+"  Condition: " + car.VehicleCondition()+
-         "  Car Cleanliness: " + car.VehicleCleanliness()+"  Car Type: " + car.VehicleType() + "  Car Cost: " + car.getVehicleCost());
-      }
-
+   
            
       
       
