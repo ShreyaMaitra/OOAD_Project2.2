@@ -4,7 +4,7 @@
 
 <h2>Java Version :17.0.6</h2>
 
-<h3> REferences:</h3>
+<h3> References:</h3>
 <h4>https://www.w3schools.com/</h4>
 <h4>https://www.geeksforgeeks.org/</h4>
 <h4>https://www.tutorialspoint.com/</h4>
