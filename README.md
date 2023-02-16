@@ -6,8 +6,8 @@
 
 <h1>Changes made compare to previous UML are following:</h1>
 
-<h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus() \n
-               methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
+<h3>Vehicle class:</h3> datatype added: carCleanliness(),carType(),carStatus(). \n
+            methods added: VehicleWashBonus(),VehicleRepairBonus(),VehicleSaleBonus()
       
 <h3>Buyer class:</h3> methods added: getBuyingAbility(),getBuyingIntention(),getDesiredVehicle()
 
