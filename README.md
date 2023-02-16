@@ -15,9 +15,9 @@
 
 <h3>Staff class:</h3> method added: StaffType()
 
-<h3>SalesPerson, Mechanic, Intern class</h3>: methods added: StaffType(),determineStaffSalary()
+<h3>SalesPerson, Mechanic, Intern class:</h3> methods added: StaffType(),determineStaffSalary()
 
-<h3>FNCD class</h3>: methods added: hireIntern(), checkOperatingBudget()
+<h3>FNCD class:</h3> methods added: hireIntern(), checkOperatingBudget()
 
 <h2>Below is the updated UML daigram:</h2>
 
