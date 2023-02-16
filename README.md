@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/59019087/219286539-db090aa6-f1c0-4310-9371-e3af69a280a6.png)
 
 # UML Changes
-we are only considering Staff as the abstract class . In the previous UML we had considered Vehicle also as an abstract class.
+We are only considering Staff as the abstract class . In the previous UML we had considered Vehicle also as an abstract class.
 
 # Assumptions : 
 
